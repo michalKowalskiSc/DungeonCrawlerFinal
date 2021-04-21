@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-04-20T17:41:08.848+02:00
-  initializedAtString: 2021-04-20T17:41:08.848+02:00
+  lastUpdatedAtString: 2021-04-21T02:52:40.464+02:00
+  initializedAtString: 2021-04-21T02:52:40.464+02:00
   currentGitRemote:
     name: origin
-    url: https://github.com/michalKowalskiSc/dungeon-crawler.git
+    url: https://github.com/michalKowalskiSc/DungeonCrawlerFinal.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: main
-    tracking: origin/main
+    name: Przemek_location_2
+    tracking: origin/Przemek_location_2
   currentConfigBranch:
-    name: main
+    name: Przemek_location_2
     remote:
       name: origin
-      url: https://github.com/michalKowalskiSc/dungeon-crawler.git
-    trackingBranch: main
+      url: https://github.com/michalKowalskiSc/DungeonCrawlerFinal.git
+    trackingBranch: Przemek_location_2
   currentConfigRemote:
     name: origin
-    url: https://github.com/michalKowalskiSc/dungeon-crawler.git
+    url: https://github.com/michalKowalskiSc/DungeonCrawlerFinal.git
   currentHead: 
