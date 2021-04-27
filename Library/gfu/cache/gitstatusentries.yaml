@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-04-27T20:07:13.822+02:00
-  initializedAtString: 2021-04-27T19:22:57.875+02:00
+  lastUpdatedAtString: 2021-04-27T21:40:35.079+02:00
+  initializedAtString: 2021-04-27T20:12:24.684+02:00
   entries:
   - path: .vs\DungeonCrawlerFinal\v16\.suo
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\.vs\DungeonCrawlerFinal\v16\.suo
@@ -70,12 +70,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
     projectPath: Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
@@ -118,15 +112,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csproj.CopyComplete
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp.csproj.CopyComplete
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -140,14 +128,32 @@ MonoBehaviour:
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp.dll
     projectPath: obj\Debug\Assembly-CSharp.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: obj\Debug\Assembly-CSharp.pdb
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp.pdb
     projectPath: obj\Debug\Assembly-CSharp.pdb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
     projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
@@ -1582,165 +1588,609 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-00e6306c462742041aabf05d7f39e25d
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-00e6306c462742041aabf05d7f39e25d
-    projectPath: Temp\UnityTempFile-00e6306c462742041aabf05d7f39e25d
+  - path: Temp\UnityTempFile-0608d10359ef60b40882d670ba51e326
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-0608d10359ef60b40882d670ba51e326
+    projectPath: Temp\UnityTempFile-0608d10359ef60b40882d670ba51e326
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-04b1084e6c554ca4b9b96a939f755983
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-04b1084e6c554ca4b9b96a939f755983
-    projectPath: Temp\UnityTempFile-04b1084e6c554ca4b9b96a939f755983
+  - path: Temp\UnityTempFile-0733383d14cf2d04a970c0d02e56b594
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-0733383d14cf2d04a970c0d02e56b594
+    projectPath: Temp\UnityTempFile-0733383d14cf2d04a970c0d02e56b594
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-183dc1e9cf05ba04ca6a1edd35c22f6a
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-183dc1e9cf05ba04ca6a1edd35c22f6a
-    projectPath: Temp\UnityTempFile-183dc1e9cf05ba04ca6a1edd35c22f6a
+  - path: Temp\UnityTempFile-088f02fdacb4022449bc4f3b90a1daaf
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-088f02fdacb4022449bc4f3b90a1daaf
+    projectPath: Temp\UnityTempFile-088f02fdacb4022449bc4f3b90a1daaf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2b709f8e25ddd6a4cbdfef8c6a14397a
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-2b709f8e25ddd6a4cbdfef8c6a14397a
-    projectPath: Temp\UnityTempFile-2b709f8e25ddd6a4cbdfef8c6a14397a
+  - path: Temp\UnityTempFile-08dd091a33d9a0d43b6a4d7bbbbe54f5
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-08dd091a33d9a0d43b6a4d7bbbbe54f5
+    projectPath: Temp\UnityTempFile-08dd091a33d9a0d43b6a4d7bbbbe54f5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3089443f9ed08d547a257c71ffb583dc
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-3089443f9ed08d547a257c71ffb583dc
-    projectPath: Temp\UnityTempFile-3089443f9ed08d547a257c71ffb583dc
+  - path: Temp\UnityTempFile-0e40ecd276599e6478d7e0fd5ac3cc37
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-0e40ecd276599e6478d7e0fd5ac3cc37
+    projectPath: Temp\UnityTempFile-0e40ecd276599e6478d7e0fd5ac3cc37
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-333389eedf38dbb4ab52f2c6685fbf5e
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-333389eedf38dbb4ab52f2c6685fbf5e
-    projectPath: Temp\UnityTempFile-333389eedf38dbb4ab52f2c6685fbf5e
+  - path: Temp\UnityTempFile-11a94acc26880f842a1f5ffad69af1f9
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-11a94acc26880f842a1f5ffad69af1f9
+    projectPath: Temp\UnityTempFile-11a94acc26880f842a1f5ffad69af1f9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-38fa51df508ae77479bf337ffbeedcac
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-38fa51df508ae77479bf337ffbeedcac
-    projectPath: Temp\UnityTempFile-38fa51df508ae77479bf337ffbeedcac
+  - path: Temp\UnityTempFile-151f4e8329ede91408a4c2fd6a3606dd
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-151f4e8329ede91408a4c2fd6a3606dd
+    projectPath: Temp\UnityTempFile-151f4e8329ede91408a4c2fd6a3606dd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3c2a8a09e19ddef4393a2711da3a8d33
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-3c2a8a09e19ddef4393a2711da3a8d33
-    projectPath: Temp\UnityTempFile-3c2a8a09e19ddef4393a2711da3a8d33
+  - path: Temp\UnityTempFile-1548034d43cfd1e4a87d9866e1306099
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-1548034d43cfd1e4a87d9866e1306099
+    projectPath: Temp\UnityTempFile-1548034d43cfd1e4a87d9866e1306099
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4e5472a23d346054eb9a5cb710f320c6
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-4e5472a23d346054eb9a5cb710f320c6
-    projectPath: Temp\UnityTempFile-4e5472a23d346054eb9a5cb710f320c6
+  - path: Temp\UnityTempFile-186f3981e6352694aa26d0b3deb126ae
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-186f3981e6352694aa26d0b3deb126ae
+    projectPath: Temp\UnityTempFile-186f3981e6352694aa26d0b3deb126ae
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4e811ea61c1ab4742a2882be28f4a92f
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-4e811ea61c1ab4742a2882be28f4a92f
-    projectPath: Temp\UnityTempFile-4e811ea61c1ab4742a2882be28f4a92f
+  - path: Temp\UnityTempFile-187e1dd714642274eb1f671cd450af6e
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-187e1dd714642274eb1f671cd450af6e
+    projectPath: Temp\UnityTempFile-187e1dd714642274eb1f671cd450af6e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5b0c048f49bb82746aa44da7eacd5974
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-5b0c048f49bb82746aa44da7eacd5974
-    projectPath: Temp\UnityTempFile-5b0c048f49bb82746aa44da7eacd5974
+  - path: Temp\UnityTempFile-19af9ff5ab8187344b463f97af0e23a1
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-19af9ff5ab8187344b463f97af0e23a1
+    projectPath: Temp\UnityTempFile-19af9ff5ab8187344b463f97af0e23a1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5b450a7607412444abb711e5acc1fe1f
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-5b450a7607412444abb711e5acc1fe1f
-    projectPath: Temp\UnityTempFile-5b450a7607412444abb711e5acc1fe1f
+  - path: Temp\UnityTempFile-19b86b1855c049d4187a3375a9b6ea80
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-19b86b1855c049d4187a3375a9b6ea80
+    projectPath: Temp\UnityTempFile-19b86b1855c049d4187a3375a9b6ea80
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5c2571dfec4b19e42995e5fe9c51b8fd
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-5c2571dfec4b19e42995e5fe9c51b8fd
-    projectPath: Temp\UnityTempFile-5c2571dfec4b19e42995e5fe9c51b8fd
+  - path: Temp\UnityTempFile-207b21e93aaebff4d8f7af2d914fa000
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-207b21e93aaebff4d8f7af2d914fa000
+    projectPath: Temp\UnityTempFile-207b21e93aaebff4d8f7af2d914fa000
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-70b9ef7316903cb4cb51d9d229ea7bb2
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-70b9ef7316903cb4cb51d9d229ea7bb2
-    projectPath: Temp\UnityTempFile-70b9ef7316903cb4cb51d9d229ea7bb2
+  - path: Temp\UnityTempFile-2105fb517d84d484db0b2e23506d4824
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-2105fb517d84d484db0b2e23506d4824
+    projectPath: Temp\UnityTempFile-2105fb517d84d484db0b2e23506d4824
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7d01fb1f9d8291a4182513b2e8287036
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-7d01fb1f9d8291a4182513b2e8287036
-    projectPath: Temp\UnityTempFile-7d01fb1f9d8291a4182513b2e8287036
+  - path: Temp\UnityTempFile-2b04415d1e874914d83fb846defea477
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-2b04415d1e874914d83fb846defea477
+    projectPath: Temp\UnityTempFile-2b04415d1e874914d83fb846defea477
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-91308651365810e4f9bcf0569f4635db
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-91308651365810e4f9bcf0569f4635db
-    projectPath: Temp\UnityTempFile-91308651365810e4f9bcf0569f4635db
+  - path: Temp\UnityTempFile-2e3a97fcaf6f9d148aa250674d486971
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-2e3a97fcaf6f9d148aa250674d486971
+    projectPath: Temp\UnityTempFile-2e3a97fcaf6f9d148aa250674d486971
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-9abe7157f06cbbe4e857e8ba34ffa69b
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-9abe7157f06cbbe4e857e8ba34ffa69b
-    projectPath: Temp\UnityTempFile-9abe7157f06cbbe4e857e8ba34ffa69b
+  - path: Temp\UnityTempFile-3079cf00b63f2a543bcd7b95ec8cabb8
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-3079cf00b63f2a543bcd7b95ec8cabb8
+    projectPath: Temp\UnityTempFile-3079cf00b63f2a543bcd7b95ec8cabb8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-acc99b7724d87c24e9bd3d6c79d5efae
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-acc99b7724d87c24e9bd3d6c79d5efae
-    projectPath: Temp\UnityTempFile-acc99b7724d87c24e9bd3d6c79d5efae
+  - path: Temp\UnityTempFile-30d83e24f489eef4db9b95860d9bd47e
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-30d83e24f489eef4db9b95860d9bd47e
+    projectPath: Temp\UnityTempFile-30d83e24f489eef4db9b95860d9bd47e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-aff13bad5d3a8b743b3f89695f0658b8
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-aff13bad5d3a8b743b3f89695f0658b8
-    projectPath: Temp\UnityTempFile-aff13bad5d3a8b743b3f89695f0658b8
+  - path: Temp\UnityTempFile-341d7a59f0d1f1f418acb49d7b40d750
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-341d7a59f0d1f1f418acb49d7b40d750
+    projectPath: Temp\UnityTempFile-341d7a59f0d1f1f418acb49d7b40d750
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-bdeaa999ee33a704ebcc25a24f258eae
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-bdeaa999ee33a704ebcc25a24f258eae
-    projectPath: Temp\UnityTempFile-bdeaa999ee33a704ebcc25a24f258eae
+  - path: Temp\UnityTempFile-347226496a6a1d24c8390f96d4232927
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-347226496a6a1d24c8390f96d4232927
+    projectPath: Temp\UnityTempFile-347226496a6a1d24c8390f96d4232927
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ddd9ea4b5465c8b488469ef2829e3a2a
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-ddd9ea4b5465c8b488469ef2829e3a2a
-    projectPath: Temp\UnityTempFile-ddd9ea4b5465c8b488469ef2829e3a2a
+  - path: Temp\UnityTempFile-39bc6dddd8080bd40bdf95f3bd4d81c5
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-39bc6dddd8080bd40bdf95f3bd4d81c5
+    projectPath: Temp\UnityTempFile-39bc6dddd8080bd40bdf95f3bd4d81c5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-df240e838fb55764ab8564060dec23b7
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-df240e838fb55764ab8564060dec23b7
-    projectPath: Temp\UnityTempFile-df240e838fb55764ab8564060dec23b7
+  - path: Temp\UnityTempFile-39d8d6e07d1030641986a8dae5a275ed
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-39d8d6e07d1030641986a8dae5a275ed
+    projectPath: Temp\UnityTempFile-39d8d6e07d1030641986a8dae5a275ed
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-e431d09aa010eaa49bc19284d4e734d6
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-e431d09aa010eaa49bc19284d4e734d6
-    projectPath: Temp\UnityTempFile-e431d09aa010eaa49bc19284d4e734d6
+  - path: Temp\UnityTempFile-3b0f10099234bac4da8ae1ad949942cf
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-3b0f10099234bac4da8ae1ad949942cf
+    projectPath: Temp\UnityTempFile-3b0f10099234bac4da8ae1ad949942cf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-e9d78e7d65b613541b53a702c1f4f558
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-e9d78e7d65b613541b53a702c1f4f558
-    projectPath: Temp\UnityTempFile-e9d78e7d65b613541b53a702c1f4f558
+  - path: Temp\UnityTempFile-3d3a6bc9f74dec044b3b7979ad4eab5a
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-3d3a6bc9f74dec044b3b7979ad4eab5a
+    projectPath: Temp\UnityTempFile-3d3a6bc9f74dec044b3b7979ad4eab5a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ee25cb1060d1b35499061ba9bf9a0aed
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-ee25cb1060d1b35499061ba9bf9a0aed
-    projectPath: Temp\UnityTempFile-ee25cb1060d1b35499061ba9bf9a0aed
+  - path: Temp\UnityTempFile-3d7eb0ede89b0494287f247978b9e7b6
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-3d7eb0ede89b0494287f247978b9e7b6
+    projectPath: Temp\UnityTempFile-3d7eb0ede89b0494287f247978b9e7b6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-fa5d4ab4df3d05440b6cf60b26e2d5f8
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-fa5d4ab4df3d05440b6cf60b26e2d5f8
-    projectPath: Temp\UnityTempFile-fa5d4ab4df3d05440b6cf60b26e2d5f8
+  - path: Temp\UnityTempFile-3f6ca3c044ca92f4caea90bf71146593
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-3f6ca3c044ca92f4caea90bf71146593
+    projectPath: Temp\UnityTempFile-3f6ca3c044ca92f4caea90bf71146593
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-fd1073fa06f50dd47ba384b0c62c46a3
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-fd1073fa06f50dd47ba384b0c62c46a3
-    projectPath: Temp\UnityTempFile-fd1073fa06f50dd47ba384b0c62c46a3
+  - path: Temp\UnityTempFile-43c7c2c553a526c418b5346ddd335e61
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-43c7c2c553a526c418b5346ddd335e61
+    projectPath: Temp\UnityTempFile-43c7c2c553a526c418b5346ddd335e61
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-443996c5f4bba5246a8e17aa83fb488b
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-443996c5f4bba5246a8e17aa83fb488b
+    projectPath: Temp\UnityTempFile-443996c5f4bba5246a8e17aa83fb488b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-461d1d32ae0552446ae3b9f811e97f08
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-461d1d32ae0552446ae3b9f811e97f08
+    projectPath: Temp\UnityTempFile-461d1d32ae0552446ae3b9f811e97f08
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4cc7c3762058711469862c0bc44d4efc
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-4cc7c3762058711469862c0bc44d4efc
+    projectPath: Temp\UnityTempFile-4cc7c3762058711469862c0bc44d4efc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4fccbfbdfa7630742b851ebe5126f9a2
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-4fccbfbdfa7630742b851ebe5126f9a2
+    projectPath: Temp\UnityTempFile-4fccbfbdfa7630742b851ebe5126f9a2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5009b110b454bc34880602ce2d2d5d4c
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-5009b110b454bc34880602ce2d2d5d4c
+    projectPath: Temp\UnityTempFile-5009b110b454bc34880602ce2d2d5d4c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-51d0efb52f860b44fa60b86cbcaff7b7
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-51d0efb52f860b44fa60b86cbcaff7b7
+    projectPath: Temp\UnityTempFile-51d0efb52f860b44fa60b86cbcaff7b7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-53e4ce7d3ddc36542a4b7340906a67a9
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-53e4ce7d3ddc36542a4b7340906a67a9
+    projectPath: Temp\UnityTempFile-53e4ce7d3ddc36542a4b7340906a67a9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5a7fdd42b6eb76a41b899055495e851b
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-5a7fdd42b6eb76a41b899055495e851b
+    projectPath: Temp\UnityTempFile-5a7fdd42b6eb76a41b899055495e851b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5dcc8d93b23738b45a7c1d6b0ee48988
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-5dcc8d93b23738b45a7c1d6b0ee48988
+    projectPath: Temp\UnityTempFile-5dcc8d93b23738b45a7c1d6b0ee48988
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-66a79d4e4431dcf469a8593ca792b817
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-66a79d4e4431dcf469a8593ca792b817
+    projectPath: Temp\UnityTempFile-66a79d4e4431dcf469a8593ca792b817
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-68799563b62243f4ab1fbc3c08e19575
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-68799563b62243f4ab1fbc3c08e19575
+    projectPath: Temp\UnityTempFile-68799563b62243f4ab1fbc3c08e19575
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6bdf04405a9ac114ca2bb61cb8f4e615
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-6bdf04405a9ac114ca2bb61cb8f4e615
+    projectPath: Temp\UnityTempFile-6bdf04405a9ac114ca2bb61cb8f4e615
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-70394d60957b98b478321ec8600b49de
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-70394d60957b98b478321ec8600b49de
+    projectPath: Temp\UnityTempFile-70394d60957b98b478321ec8600b49de
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-709d38bc17b92d74e8485ce423226914
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-709d38bc17b92d74e8485ce423226914
+    projectPath: Temp\UnityTempFile-709d38bc17b92d74e8485ce423226914
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-70d37ea9494031a4299aaf1f173b6ea4
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-70d37ea9494031a4299aaf1f173b6ea4
+    projectPath: Temp\UnityTempFile-70d37ea9494031a4299aaf1f173b6ea4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-72292ffff24527c49b5c98bc50af3f73
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-72292ffff24527c49b5c98bc50af3f73
+    projectPath: Temp\UnityTempFile-72292ffff24527c49b5c98bc50af3f73
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-723a1a6aada100c4da96ff22ad560289
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-723a1a6aada100c4da96ff22ad560289
+    projectPath: Temp\UnityTempFile-723a1a6aada100c4da96ff22ad560289
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-724f20ed851a4bc458739aec4b68586f
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-724f20ed851a4bc458739aec4b68586f
+    projectPath: Temp\UnityTempFile-724f20ed851a4bc458739aec4b68586f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7360666349872c743b7745d1201513d2
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-7360666349872c743b7745d1201513d2
+    projectPath: Temp\UnityTempFile-7360666349872c743b7745d1201513d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-75bd45b561c739f4a832fde92b75d0f7
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-75bd45b561c739f4a832fde92b75d0f7
+    projectPath: Temp\UnityTempFile-75bd45b561c739f4a832fde92b75d0f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-76a5dee7887d601448127f2ab30d3be0
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-76a5dee7887d601448127f2ab30d3be0
+    projectPath: Temp\UnityTempFile-76a5dee7887d601448127f2ab30d3be0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7b57671ddfe00084fa80184126153fdf
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-7b57671ddfe00084fa80184126153fdf
+    projectPath: Temp\UnityTempFile-7b57671ddfe00084fa80184126153fdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7e5314cd89ca1e44db21fe48b8d3b478
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-7e5314cd89ca1e44db21fe48b8d3b478
+    projectPath: Temp\UnityTempFile-7e5314cd89ca1e44db21fe48b8d3b478
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7ee0242760276f344a5c47d15e8d62d9
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-7ee0242760276f344a5c47d15e8d62d9
+    projectPath: Temp\UnityTempFile-7ee0242760276f344a5c47d15e8d62d9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7f84ed4605a74694389569fd7a5656a0
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-7f84ed4605a74694389569fd7a5656a0
+    projectPath: Temp\UnityTempFile-7f84ed4605a74694389569fd7a5656a0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-8ae18757db383034e9a12c4dfaff9ab1
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-8ae18757db383034e9a12c4dfaff9ab1
+    projectPath: Temp\UnityTempFile-8ae18757db383034e9a12c4dfaff9ab1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-92eb78a902fa7af4aa1feb52b3750f76
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-92eb78a902fa7af4aa1feb52b3750f76
+    projectPath: Temp\UnityTempFile-92eb78a902fa7af4aa1feb52b3750f76
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-93c44cd05a3c878409ac742cd09c793a
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-93c44cd05a3c878409ac742cd09c793a
+    projectPath: Temp\UnityTempFile-93c44cd05a3c878409ac742cd09c793a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-96a3a1e1a2649e54ca61aa6d8d51e9c9
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-96a3a1e1a2649e54ca61aa6d8d51e9c9
+    projectPath: Temp\UnityTempFile-96a3a1e1a2649e54ca61aa6d8d51e9c9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-97577d44c4882b1479447f86ccd65218
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-97577d44c4882b1479447f86ccd65218
+    projectPath: Temp\UnityTempFile-97577d44c4882b1479447f86ccd65218
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-99b7db2233594f14ab2f59ba21dfcfdb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-99b7db2233594f14ab2f59ba21dfcfdb
+    projectPath: Temp\UnityTempFile-99b7db2233594f14ab2f59ba21dfcfdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9a080267271a4394099c91bebf93a1d7
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-9a080267271a4394099c91bebf93a1d7
+    projectPath: Temp\UnityTempFile-9a080267271a4394099c91bebf93a1d7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9aa997401fa173440a53f2cce3de4273
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-9aa997401fa173440a53f2cce3de4273
+    projectPath: Temp\UnityTempFile-9aa997401fa173440a53f2cce3de4273
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9c94467b66808764cb8fe96070acbebb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-9c94467b66808764cb8fe96070acbebb
+    projectPath: Temp\UnityTempFile-9c94467b66808764cb8fe96070acbebb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9d60f7a0645d074498565e148c893178
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-9d60f7a0645d074498565e148c893178
+    projectPath: Temp\UnityTempFile-9d60f7a0645d074498565e148c893178
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9d8fe8dca42f3c8489b5a16119abb5d5
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-9d8fe8dca42f3c8489b5a16119abb5d5
+    projectPath: Temp\UnityTempFile-9d8fe8dca42f3c8489b5a16119abb5d5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9e68b2e8cc301fd4ea099d0160a93815
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-9e68b2e8cc301fd4ea099d0160a93815
+    projectPath: Temp\UnityTempFile-9e68b2e8cc301fd4ea099d0160a93815
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a0602fbd368af1148acd1df1b9fa925d
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a0602fbd368af1148acd1df1b9fa925d
+    projectPath: Temp\UnityTempFile-a0602fbd368af1148acd1df1b9fa925d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a1fed9ea412b510419dcd458f3661fbf
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a1fed9ea412b510419dcd458f3661fbf
+    projectPath: Temp\UnityTempFile-a1fed9ea412b510419dcd458f3661fbf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a42d2ec422993a94ea31b5fc3f559240
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a42d2ec422993a94ea31b5fc3f559240
+    projectPath: Temp\UnityTempFile-a42d2ec422993a94ea31b5fc3f559240
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a5db0cd2cbaecde48aafbd2085490578
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a5db0cd2cbaecde48aafbd2085490578
+    projectPath: Temp\UnityTempFile-a5db0cd2cbaecde48aafbd2085490578
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a642ac6271c66724599d456e9291314d
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a642ac6271c66724599d456e9291314d
+    projectPath: Temp\UnityTempFile-a642ac6271c66724599d456e9291314d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a64e91843258fb84c9c117e8c52c746d
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a64e91843258fb84c9c117e8c52c746d
+    projectPath: Temp\UnityTempFile-a64e91843258fb84c9c117e8c52c746d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a6686a14a116c2749a8a4c8e30718279
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a6686a14a116c2749a8a4c8e30718279
+    projectPath: Temp\UnityTempFile-a6686a14a116c2749a8a4c8e30718279
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a8502d7feafa250449319aa2100151ea
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a8502d7feafa250449319aa2100151ea
+    projectPath: Temp\UnityTempFile-a8502d7feafa250449319aa2100151ea
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a9a92866dad3f9e45871953ef11fe83b
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a9a92866dad3f9e45871953ef11fe83b
+    projectPath: Temp\UnityTempFile-a9a92866dad3f9e45871953ef11fe83b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a9b78372f12477c4a86be60a17fc0767
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a9b78372f12477c4a86be60a17fc0767
+    projectPath: Temp\UnityTempFile-a9b78372f12477c4a86be60a17fc0767
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-aba9ed7dc6a20204d83201deff33925d
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-aba9ed7dc6a20204d83201deff33925d
+    projectPath: Temp\UnityTempFile-aba9ed7dc6a20204d83201deff33925d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ac93b6f9968f0af41858e1ac807b8ec0
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-ac93b6f9968f0af41858e1ac807b8ec0
+    projectPath: Temp\UnityTempFile-ac93b6f9968f0af41858e1ac807b8ec0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b082d5283e0b1e241affd41bd7c8e9cd
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-b082d5283e0b1e241affd41bd7c8e9cd
+    projectPath: Temp\UnityTempFile-b082d5283e0b1e241affd41bd7c8e9cd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b4b60a004211ce34f9997747235ee61f
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-b4b60a004211ce34f9997747235ee61f
+    projectPath: Temp\UnityTempFile-b4b60a004211ce34f9997747235ee61f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b636d64b0346f58449ed97f27e975d0c
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-b636d64b0346f58449ed97f27e975d0c
+    projectPath: Temp\UnityTempFile-b636d64b0346f58449ed97f27e975d0c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c20dfffa67e9dff44be622fbf00c543d
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-c20dfffa67e9dff44be622fbf00c543d
+    projectPath: Temp\UnityTempFile-c20dfffa67e9dff44be622fbf00c543d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c27c7b779bc4ede4b821eed16dbdbb38
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-c27c7b779bc4ede4b821eed16dbdbb38
+    projectPath: Temp\UnityTempFile-c27c7b779bc4ede4b821eed16dbdbb38
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c7649d28fbced1f449e544dc8a6b165a
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-c7649d28fbced1f449e544dc8a6b165a
+    projectPath: Temp\UnityTempFile-c7649d28fbced1f449e544dc8a6b165a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c8393a96600603745a2f9799e8d412eb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-c8393a96600603745a2f9799e8d412eb
+    projectPath: Temp\UnityTempFile-c8393a96600603745a2f9799e8d412eb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d26187623a3e3744fbd18267aaf6d861
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-d26187623a3e3744fbd18267aaf6d861
+    projectPath: Temp\UnityTempFile-d26187623a3e3744fbd18267aaf6d861
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d6121fe3b9bf44547902a4aafed62419
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-d6121fe3b9bf44547902a4aafed62419
+    projectPath: Temp\UnityTempFile-d6121fe3b9bf44547902a4aafed62419
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d670ca94e743c8842a3c622b882e866c
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-d670ca94e743c8842a3c622b882e866c
+    projectPath: Temp\UnityTempFile-d670ca94e743c8842a3c622b882e866c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d8255daf8ba48dd4eb01518539044678
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-d8255daf8ba48dd4eb01518539044678
+    projectPath: Temp\UnityTempFile-d8255daf8ba48dd4eb01518539044678
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-de95219a21f26264696da81e5f1fa139
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-de95219a21f26264696da81e5f1fa139
+    projectPath: Temp\UnityTempFile-de95219a21f26264696da81e5f1fa139
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-de98c53bb74a12445824989d2ecf8209
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-de98c53bb74a12445824989d2ecf8209
+    projectPath: Temp\UnityTempFile-de98c53bb74a12445824989d2ecf8209
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-df9863f3d2782d849b5f520ebef04293
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-df9863f3d2782d849b5f520ebef04293
+    projectPath: Temp\UnityTempFile-df9863f3d2782d849b5f520ebef04293
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e0ab8d4f4c6c2074f94f58f5c78b2e7d
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-e0ab8d4f4c6c2074f94f58f5c78b2e7d
+    projectPath: Temp\UnityTempFile-e0ab8d4f4c6c2074f94f58f5c78b2e7d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e205b9971577e674eba1fc50ebf417a0
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-e205b9971577e674eba1fc50ebf417a0
+    projectPath: Temp\UnityTempFile-e205b9971577e674eba1fc50ebf417a0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e3f33689ab0295f4b8f9fe3d97484e02
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-e3f33689ab0295f4b8f9fe3d97484e02
+    projectPath: Temp\UnityTempFile-e3f33689ab0295f4b8f9fe3d97484e02
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e4147aef095e68747a1b9cfa1f6374be
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-e4147aef095e68747a1b9cfa1f6374be
+    projectPath: Temp\UnityTempFile-e4147aef095e68747a1b9cfa1f6374be
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e8e818542e0517f4abe4cc044c2e962b
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-e8e818542e0517f4abe4cc044c2e962b
+    projectPath: Temp\UnityTempFile-e8e818542e0517f4abe4cc044c2e962b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e9bac7ee4308ab34fbb16ed04a88e1ee
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-e9bac7ee4308ab34fbb16ed04a88e1ee
+    projectPath: Temp\UnityTempFile-e9bac7ee4308ab34fbb16ed04a88e1ee
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ebc80bb4871cf4d43a6ddcf05623ba36
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-ebc80bb4871cf4d43a6ddcf05623ba36
+    projectPath: Temp\UnityTempFile-ebc80bb4871cf4d43a6ddcf05623ba36
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f23dc97c898909349a14c70714c981cb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-f23dc97c898909349a14c70714c981cb
+    projectPath: Temp\UnityTempFile-f23dc97c898909349a14c70714c981cb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f2cfc36bb7ab1174aa5aa28e96d062d6
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-f2cfc36bb7ab1174aa5aa28e96d062d6
+    projectPath: Temp\UnityTempFile-f2cfc36bb7ab1174aa5aa28e96d062d6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fc3da20ec412f7e419e921b5a88e3509
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-fc3da20ec412f7e419e921b5a88e3509
+    projectPath: Temp\UnityTempFile-fc3da20ec412f7e419e921b5a88e3509
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ff89c2d71241ff94d9d531e16ec895e4
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-ff89c2d71241ff94d9d531e16ec895e4
+    projectPath: Temp\UnityTempFile-ff89c2d71241ff94d9d531e16ec895e4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
