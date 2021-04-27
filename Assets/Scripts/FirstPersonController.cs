@@ -258,5 +258,12 @@ public class FirstPersonController : MonoBehaviour
     {
         m_Camera.transform.Rotate(0, 90, 0);
     }
+
+    private void OnTriggerEnter(Collider other) { 
+        //other
+    }
+
+    private void OnCollisionEnter(Collision collision) { 
+    }
 }
 
