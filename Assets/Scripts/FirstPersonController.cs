@@ -27,25 +27,21 @@ public class FirstPersonController : MonoBehaviour
     Camera p_Camera;
     private AudioSource m_AudioSource; 
     public Texture2D cursorArrow;
-    float TotalCooldown;
-    float ActualCooldown;
-    bool OnCooldown;
+    private Boolean isMoving = false;
+    private Transform target;
 
     // Use this for initialization 
     private void Start()
     {
         m_CharacterController = GetComponent<CharacterController>();
         m_Camera = Camera.main;
-        m_OriginalCameraPosition = m_Camera.transform.localPosition;
-        m_StepCycle = 0f;
-        m_NextStep = m_StepCycle/2f;
+        //m_OriginalCameraPosition = m_Camera.transform.localPosition;
+        //m_StepCycle = 0f;
+        //m_NextStep = m_StepCycle/2f;
         m_AudioSource = GetComponent<AudioSource>();
         Cursor.visible = true;
         Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
         this.p_Camera = GameObject.Find("FirstPersonCharacter").GetComponent<Camera>();
-        this.TotalCooldown = 1;
-        this.ActualCooldown = 1;
-        this.OnCooldown = true;
     }
 
 
@@ -55,27 +51,28 @@ public class FirstPersonController : MonoBehaviour
         RotateView();
         Cursor.visible = true;
 
-        if (this.ActualCooldown > 0)
-        {
-            this.OnCooldown = true;
-            this.ActualCooldown -= Time.deltaTime;
-        }
-        else if (this.ActualCooldown <= 0)
-        {
-            this.OnCooldown = false;
-        }
-        if (this.OnCooldown == false)
-        {
-            this.ActualCooldown = this.TotalCooldown;
-            this.MovethePlayer();
-        }
+        // Move our position a step closer to the target.
+        float step = this.m_WalkSpeed * Time.deltaTime; // calculate distance to move
+        if (this.target != null) {
+            transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+            // Check if the position of the cube and sphere are approximately equal.
+            if (Vector3.Distance(transform.position, target.position) < 0.001f)
+            {
+                // Swap the position of the cylinder.
+                GameObject.Destroy(this.target.gameObject);
+                this.target = null;
+                this.isMoving = false;
+            }      
+        }      
+
+
     }
 
 
     private void FixedUpdate()
     {
-        float speed;
-        GetInput(out speed);
+        //float speed;
+        //GetInput(out speed);
         // always move along the camera forward as it is the direction that it being aimed at
         //Vector3 desiredMove = transform.forward*m_Input.y + transform.right*m_Input.x;
 
@@ -97,7 +94,7 @@ public class FirstPersonController : MonoBehaviour
     }
 
 
-    private void ProgressStepCycle(float speed)
+    /*private void ProgressStepCycle(float speed)
     {
         if (m_CharacterController.velocity.sqrMagnitude > 0 && (m_Input.x != 0 || m_Input.y != 0))
         {
@@ -115,7 +112,7 @@ public class FirstPersonController : MonoBehaviour
         PlayFootStepAudio();
     }
 
-
+    */
     private void PlayFootStepAudio()
     {
         if (!m_CharacterController.isGrounded)
@@ -133,7 +130,7 @@ public class FirstPersonController : MonoBehaviour
     }
 
 
-    private void UpdateCameraPosition(float speed)
+    /*private void UpdateCameraPosition(float speed)
     {
         Vector3 newCameraPosition;
             if (m_CharacterController.velocity.magnitude > 0 && m_CharacterController.isGrounded)
@@ -146,12 +143,12 @@ public class FirstPersonController : MonoBehaviour
         }
         m_Camera.transform.localPosition = newCameraPosition;
     }
+    */
 
-
-    private void GetInput(out float speed)
+/*    private void GetInput(out float speed)
     {
-        speed = m_WalkSpeed;
-    }
+       // speed = m_WalkSpeed;
+    }*/
 
 
     private void RotateView() 
@@ -160,7 +157,7 @@ public class FirstPersonController : MonoBehaviour
     } 
 
 
-    private void OnControllerColliderHit(ControllerColliderHit hit)
+/*    private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         Rigidbody body = hit.collider.attachedRigidbody;
         //dont move the rigidbody if the character is on top of it
@@ -175,67 +172,58 @@ public class FirstPersonController : MonoBehaviour
         }
         body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
     }
-
-    private void MovethePlayer() { 
-    
-    }
+*/
 
     public void moveForward(float speed) {
-        m_Input = m_Camera.transform.forward;
-        Vector3 desiredMove;
-        // wektory do poruszania obiektu
-        Vector3 forMove = new Vector3(0, 0, 1);
-        Vector3 rightMove = new Vector3(1, 0, 0);
-        Vector3 backMove = new Vector3(0, 0, -1);
-        Vector3 leftMove = new Vector3(-1, 0, 0);
+        if (!this.isMoving) {
+            this.isMoving = true;
+            //m_Input = m_Camera.transform.forward;
+            Vector3 desiredMove;
+            // wektory do poruszania obiektu
+            Vector3 forMove = new Vector3(0, 0, 1);
+            Vector3 rightMove = new Vector3(1, 0, 0);
+            Vector3 backMove = new Vector3(0, 0, -1);
+            Vector3 leftMove = new Vector3(-1, 0, 0);
 
-        Quaternion camSettingFor = new Quaternion();
-        camSettingFor.w = 1;
-        Quaternion camSettingRight = new Quaternion();
-        camSettingRight.w = (float)-0.7071068;
-        camSettingRight.y = (float)-0.7071068;
-        Quaternion camSettingBackr = new Quaternion();
-        camSettingBackr.y = 1;
-        Quaternion camSettingLeft = new Quaternion();
-        camSettingLeft.w = (float)-0.7071068;
-        camSettingLeft.y = (float)0.7071068;
+            // zmienne do przesuniêcia kamery i awatara
+            float xTarget = this.m_CharacterController.transform.position.x;
+            float yTarget = this.m_CharacterController.transform.position.y;
+            float zTarget = this.m_CharacterController.transform.position.z;
+            float xCamera = xTarget;
+            float yCamera = 1.5f;
+            float zCamera = zTarget;
+            float y = (float)Math.Round(this.p_Camera.transform.rotation.y, 1);
 
-        Quaternion p_CameraRot = this.p_Camera.transform.rotation;
-        float y = (float)Math.Round(this.p_Camera.transform.rotation.y, 1);
+            if (y == 0) // kamera do przodu
+            {
+                zTarget += 1;
+            }
+            else if (y == 0.7f) // kamera w prawo
+            {
+                xTarget += 1;
+            }
+            else if (y == 1)// kamera do ty³u
+            {
+                zTarget -= 1;
+            }
+            else if (y == -0.7f)
+            {
+                xTarget -= 1;
+            }
+
+            GameObject cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+            this.target = cylinder.transform;
+            this.target.transform.localScale = new Vector3(0.15f, 1.0f, 0.15f);
+            this.target.transform.position = new Vector3(xTarget, yTarget, zTarget);
+            Camera.main.transform.position = new Vector3(xCamera, yCamera, zCamera);
+        }
         
-        if (y == 0)
-        {
-            // kamera do przodu
-            transform.Translate(forMove * this.m_WalkSpeed * 1);
-            //desiredMove = transform.forward * m_Camera.transform.forward.y;
-        }
-        else if (y == (float)0.7)
-        {
-            // kamera w prawo
-            transform.Translate(rightMove * this.m_WalkSpeed * 1); 
-            //desiredMove = transform.forward * m_Camera.transform.forward.y;
-        }
-        else if (y == 1)
-        {
-            // kamera do ty³u
-            transform.Translate(backMove * this.m_WalkSpeed * 1); 
-            // desiredMove = transform.forward * m_Camera.transform.forward.z;
-        }
-        else if (y == (float)-0.7)
-        {
-            // kamera w lewo
-            transform.Translate(leftMove * this.m_WalkSpeed * 1, Space.Self); 
-            // desiredMove = transform.forward * m_Camera.transform.forward.z;
-        }
-        else {
-            //desiredMove = transform.forward * 0;
-        }
-
+        
         // get a normal for the surface that is being touched to move along it
         //RaycastHit hitInfo;
         //Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
         //                    m_CharacterController.height / 2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
-            
+
         //desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
         //m_MoveDir.x = desiredMove.x * speed;
@@ -246,22 +234,29 @@ public class FirstPersonController : MonoBehaviour
         //ProgressStepCycle(speed);
         //UpdateCameraPosition(speed);
     }
-    public void rotateBack(float speed) { 
-        m_Camera.transform.Rotate(0, 180, 0);
+    public void rotateBack(float speed) {
+        if (!this.isMoving) {
+            m_Camera.transform.Rotate(0, 180, 0);
+        }        
     }
 
     public void rotateLeft(float speed) 
-    { 
-        m_Camera.transform.Rotate(0, 270, 0); 
+    {
+        if (!this.isMoving) {
+            m_Camera.transform.Rotate(0, 270, 0);
+        }
+
     }
 
     public void rotateRight(float speed)
     {
-        m_Camera.transform.Rotate(0, 90, 0);
+        if (!this.isMoving) {
+            m_Camera.transform.Rotate(0, 90, 0);
+        }            
     }
 
     private void OnTriggerEnter(Collider other) { 
-        
+ 
     }
 
     private void OnCollisionEnter(Collision collision) { 
