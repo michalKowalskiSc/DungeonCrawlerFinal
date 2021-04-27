@@ -23,7 +23,7 @@ public class FirstPersonController : MonoBehaviour
     private CollisionFlags m_CollisionFlags;
     private Vector3 m_OriginalCameraPosition;
     private float m_StepCycle;
-    private float m_NextStep;
+    private float m_NextStep; 
     private AudioSource m_AudioSource; 
     public Texture2D cursorArrow;
 
