@@ -23,9 +23,13 @@ public class FirstPersonController : MonoBehaviour
     private CollisionFlags m_CollisionFlags;
     private Vector3 m_OriginalCameraPosition;
     private float m_StepCycle;
-    private float m_NextStep; 
+    private float m_NextStep;
+    Camera p_Camera;
     private AudioSource m_AudioSource; 
     public Texture2D cursorArrow;
+    float TotalCooldown;
+    float ActualCooldown;
+    bool OnCooldown;
 
     // Use this for initialization 
     private void Start()
@@ -38,6 +42,10 @@ public class FirstPersonController : MonoBehaviour
         m_AudioSource = GetComponent<AudioSource>();
         Cursor.visible = true;
         Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
+        this.p_Camera = GameObject.Find("FirstPersonCharacter").GetComponent<Camera>();
+        this.TotalCooldown = 1;
+        this.ActualCooldown = 1;
+        this.OnCooldown = true;
     }
 
 
@@ -46,6 +54,21 @@ public class FirstPersonController : MonoBehaviour
     {
         RotateView();
         Cursor.visible = true;
+
+        if (this.ActualCooldown > 0)
+        {
+            this.OnCooldown = true;
+            this.ActualCooldown -= Time.deltaTime;
+        }
+        else if (this.ActualCooldown <= 0)
+        {
+            this.OnCooldown = false;
+        }
+        if (this.OnCooldown == false)
+        {
+            this.ActualCooldown = this.TotalCooldown;
+            this.MovethePlayer();
+        }
     }
 
 
@@ -54,21 +77,21 @@ public class FirstPersonController : MonoBehaviour
         float speed;
         GetInput(out speed);
         // always move along the camera forward as it is the direction that it being aimed at
-        Vector3 desiredMove = transform.forward*m_Input.y + transform.right*m_Input.x;
+        //Vector3 desiredMove = transform.forward*m_Input.y + transform.right*m_Input.x;
 
         // get a normal for the surface that is being touched to move along it
-        RaycastHit hitInfo;
-        Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
-                            m_CharacterController.height/2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
-        desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
+        //RaycastHit hitInfo;
+        //Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
+       //                     m_CharacterController.height/2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
+        //desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
-        m_MoveDir.x = desiredMove.x*speed;
-        m_MoveDir.z = desiredMove.z*speed;
+        //m_MoveDir.x = desiredMove.x*speed;
+        //m_MoveDir.z = desiredMove.z*speed;
 
-        m_CollisionFlags = m_CharacterController.Move(m_MoveDir*Time.fixedDeltaTime);
+        //m_CollisionFlags = m_CharacterController.Move(m_MoveDir*Time.fixedDeltaTime);
 
-        ProgressStepCycle(speed);
-        UpdateCameraPosition(speed);
+        //ProgressStepCycle(speed);
+        //UpdateCameraPosition(speed);
 
         // m_MouseLook.UpdateCursorLock();
     }
@@ -153,42 +176,74 @@ public class FirstPersonController : MonoBehaviour
         body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
     }
 
+    private void MovethePlayer() { 
+    
+    }
+
     public void moveForward(float speed) {
-        print(m_Camera.transform.forward);
         m_Input = m_Camera.transform.forward;
         Vector3 desiredMove;
+        // wektory do poruszania obiektu
+        Vector3 forMove = new Vector3(0, 0, 1);
+        Vector3 rightMove = new Vector3(1, 0, 0);
+        Vector3 backMove = new Vector3(0, 0, -1);
+        Vector3 leftMove = new Vector3(-1, 0, 0);
 
-        if (m_Input.x != 0)
+        Quaternion camSettingFor = new Quaternion();
+        camSettingFor.w = 1;
+        Quaternion camSettingRight = new Quaternion();
+        camSettingRight.w = (float)-0.7071068;
+        camSettingRight.y = (float)-0.7071068;
+        Quaternion camSettingBackr = new Quaternion();
+        camSettingBackr.y = 1;
+        Quaternion camSettingLeft = new Quaternion();
+        camSettingLeft.w = (float)0.7071068;
+        camSettingLeft.y = (float)-0.7071068;
+
+        Quaternion p_CameraRot = this.p_Camera.transform.rotation;
+
+        if (p_CameraRot == camSettingFor)
         {
-            desiredMove = transform.forward * m_Camera.transform.forward.x;
+            // kamera do przodu
+            transform.Translate(forMove * this.m_WalkSpeed * 1);
+            //desiredMove = transform.forward * m_Camera.transform.forward.y;
         }
-        else if (m_Input.y != 0)
+        else if (p_CameraRot == camSettingRight)
         {
-            desiredMove = transform.forward * m_Camera.transform.forward.y;
+            // kamera w prawo
+            transform.Translate(rightMove * this.m_WalkSpeed * 1);
+            //desiredMove = transform.forward * m_Camera.transform.forward.y;
         }
-        else if (m_Input.z != 0)
+        else if (p_CameraRot == camSettingBackr)
         {
-            desiredMove = transform.forward * m_Camera.transform.forward.z;
+            // kamera do ty³u
+            transform.Translate(backMove * this.m_WalkSpeed * 1);
+            // desiredMove = transform.forward * m_Camera.transform.forward.z;
+        }
+        else if (p_CameraRot == camSettingLeft)
+        {
+            // kamera w lewo
+            transform.Translate(leftMove * this.m_WalkSpeed * 1);
+            // desiredMove = transform.forward * m_Camera.transform.forward.z;
         }
         else {
-            desiredMove = transform.forward * 0;
+            //desiredMove = transform.forward * 0;
         }
 
-        print(desiredMove);
         // get a normal for the surface that is being touched to move along it
         RaycastHit hitInfo;
         Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
                             m_CharacterController.height / 2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
             
-        desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
+        //desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
-        m_MoveDir.x = desiredMove.x * speed;
-        m_MoveDir.z = desiredMove.z * speed;
+        //m_MoveDir.x = desiredMove.x * speed;
+        //m_MoveDir.z = desiredMove.z * speed;
 
-        m_CollisionFlags = m_CharacterController.Move(m_MoveDir * Time.fixedDeltaTime);
+        //m_CollisionFlags = m_CharacterController.Move(m_MoveDir * Time.fixedDeltaTime);
 
-        ProgressStepCycle(speed);
-        UpdateCameraPosition(speed);
+        //ProgressStepCycle(speed);
+        //UpdateCameraPosition(speed);
     }
     public void rotateBack(float speed) { 
         m_Camera.transform.Rotate(0, 180, 0);
