@@ -197,33 +197,34 @@ public class FirstPersonController : MonoBehaviour
         Quaternion camSettingBackr = new Quaternion();
         camSettingBackr.y = 1;
         Quaternion camSettingLeft = new Quaternion();
-        camSettingLeft.w = (float)0.7071068;
-        camSettingLeft.y = (float)-0.7071068;
+        camSettingLeft.w = (float)-0.7071068;
+        camSettingLeft.y = (float)0.7071068;
 
         Quaternion p_CameraRot = this.p_Camera.transform.rotation;
-
-        if (p_CameraRot == camSettingFor)
+        float y = (float)Math.Round(this.p_Camera.transform.rotation.y, 1);
+        
+        if (y == 0)
         {
             // kamera do przodu
             transform.Translate(forMove * this.m_WalkSpeed * 1);
             //desiredMove = transform.forward * m_Camera.transform.forward.y;
         }
-        else if (p_CameraRot == camSettingRight)
+        else if (y == (float)0.7)
         {
             // kamera w prawo
-            transform.Translate(rightMove * this.m_WalkSpeed * 1);
+            transform.Translate(rightMove * this.m_WalkSpeed * 1); 
             //desiredMove = transform.forward * m_Camera.transform.forward.y;
         }
-        else if (p_CameraRot == camSettingBackr)
+        else if (y == 1)
         {
             // kamera do ty³u
-            transform.Translate(backMove * this.m_WalkSpeed * 1);
+            transform.Translate(backMove * this.m_WalkSpeed * 1); 
             // desiredMove = transform.forward * m_Camera.transform.forward.z;
         }
-        else if (p_CameraRot == camSettingLeft)
+        else if (y == (float)-0.7)
         {
             // kamera w lewo
-            transform.Translate(leftMove * this.m_WalkSpeed * 1);
+            transform.Translate(leftMove * this.m_WalkSpeed * 1, Space.Self); 
             // desiredMove = transform.forward * m_Camera.transform.forward.z;
         }
         else {
@@ -231,9 +232,9 @@ public class FirstPersonController : MonoBehaviour
         }
 
         // get a normal for the surface that is being touched to move along it
-        RaycastHit hitInfo;
-        Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
-                            m_CharacterController.height / 2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
+        //RaycastHit hitInfo;
+        //Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
+        //                    m_CharacterController.height / 2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
             
         //desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
@@ -260,7 +261,7 @@ public class FirstPersonController : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) { 
-        //other
+        
     }
 
     private void OnCollisionEnter(Collision collision) { 
