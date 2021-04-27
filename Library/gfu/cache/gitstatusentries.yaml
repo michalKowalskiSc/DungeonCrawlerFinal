@@ -13,12 +13,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-04-27T11:48:19.864+02:00
-  initializedAtString: 2021-04-27T11:40:35.214+02:00
+  lastUpdatedAtString: 2021-04-27T20:07:13.822+02:00
+  initializedAtString: 2021-04-27T19:22:57.875+02:00
   entries:
+  - path: .vs\DungeonCrawlerFinal\v16\.suo
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\.vs\DungeonCrawlerFinal\v16\.suo
+    projectPath: .vs\DungeonCrawlerFinal\v16\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\old.unity
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\old.unity
     projectPath: Assets\old.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scripts\FirstPersonController.cs
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Scripts\FirstPersonController.cs
+    projectPath: Assets\Scripts\FirstPersonController.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -64,6 +76,30 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
+    projectPath: Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -74,29 +110,1463 @@ MonoBehaviour:
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\StateCache\Hierarchy\0d1fef-mainStage.json
     projectPath: Library\StateCache\Hierarchy\0d1fef-mainStage.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\Hierarchy\414374-mainStage.json
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\StateCache\Hierarchy\414374-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\414374-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\0d508c-mainStage.json
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\StateCache\SceneView\0d508c-mainStage.json
-    projectPath: Library\StateCache\SceneView\0d508c-mainStage.json
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Library\StateCache\SceneView\b8e7b0-mainStage.json
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\StateCache\SceneView\b8e7b0-mainStage.json
     projectPath: Library\StateCache\SceneView\b8e7b0-mainStage.json
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+    projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp.dll
+    projectPath: obj\Debug\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp.pdb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp.pdb
+    projectPath: obj\Debug\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-firstpass.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp-firstpass.dll
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-firstpass.pdb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\obj\Debug\Assembly-CSharp-firstpass.pdb
+    projectPath: obj\Debug\Assembly-CSharp-firstpass.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp\__Backupscenes\0.backup
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Assembly-CSharp.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Assembly-CSharp.dll
+    projectPath: Temp\bin\Debug\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Assembly-CSharp.pdb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Assembly-CSharp.pdb
+    projectPath: Temp\bin\Debug\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+    projectPath: Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+    projectPath: Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\ExCSS.Unity.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\ExCSS.Unity.dll
+    projectPath: Temp\bin\Debug\ExCSS.Unity.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+    projectPath: Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\mscorlib.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\mscorlib.dll
+    projectPath: Temp\bin\Debug\mscorlib.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\netstandard.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\netstandard.dll
+    projectPath: Temp\bin\Debug\netstandard.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\nunit.framework.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\nunit.framework.dll
+    projectPath: Temp\bin\Debug\nunit.framework.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\nunit.framework.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\nunit.framework.xml
+    projectPath: Temp\bin\Debug\nunit.framework.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.AppContext.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.AppContext.dll
+    projectPath: Temp\bin\Debug\System.AppContext.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Collections.Concurrent.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Collections.Concurrent.dll
+    projectPath: Temp\bin\Debug\System.Collections.Concurrent.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Collections.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Collections.dll
+    projectPath: Temp\bin\Debug\System.Collections.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Collections.NonGeneric.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Collections.NonGeneric.dll
+    projectPath: Temp\bin\Debug\System.Collections.NonGeneric.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Collections.Specialized.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Collections.Specialized.dll
+    projectPath: Temp\bin\Debug\System.Collections.Specialized.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ComponentModel.Composition.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.ComponentModel.Composition.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.Composition.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ComponentModel.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.ComponentModel.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ComponentModel.Primitives.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+    projectPath: Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Console.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Console.dll
+    projectPath: Temp\bin\Debug\System.Console.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Core.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Core.dll
+    projectPath: Temp\bin\Debug\System.Core.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Data.Common.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Data.Common.dll
+    projectPath: Temp\bin\Debug\System.Data.Common.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Data.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Data.dll
+    projectPath: Temp\bin\Debug\System.Data.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.Contracts.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Contracts.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.Debug.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Diagnostics.Debug.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Debug.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.Process.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Diagnostics.Process.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Process.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.Tools.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Diagnostics.Tools.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Tools.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Diagnostics.Tracing.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Diagnostics.Tracing.dll
+    projectPath: Temp\bin\Debug\System.Diagnostics.Tracing.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.dll
+    projectPath: Temp\bin\Debug\System.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Drawing.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Drawing.dll
+    projectPath: Temp\bin\Debug\System.Drawing.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Drawing.Primitives.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Drawing.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Drawing.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Dynamic.Runtime.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Dynamic.Runtime.dll
+    projectPath: Temp\bin\Debug\System.Dynamic.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Globalization.Calendars.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Globalization.Calendars.dll
+    projectPath: Temp\bin\Debug\System.Globalization.Calendars.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Globalization.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Globalization.dll
+    projectPath: Temp\bin\Debug\System.Globalization.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Globalization.Extensions.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Globalization.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Globalization.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.Compression.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.Compression.dll
+    projectPath: Temp\bin\Debug\System.IO.Compression.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+    projectPath: Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+    projectPath: Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.dll
+    projectPath: Temp\bin\Debug\System.IO.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.FileSystem.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.FileSystem.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+    projectPath: Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.IsolatedStorage.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+    projectPath: Temp\bin\Debug\System.IO.IsolatedStorage.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+    projectPath: Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.Pipes.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.Pipes.dll
+    projectPath: Temp\bin\Debug\System.IO.Pipes.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+    projectPath: Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Linq.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Linq.dll
+    projectPath: Temp\bin\Debug\System.Linq.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Linq.Expressions.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Linq.Expressions.dll
+    projectPath: Temp\bin\Debug\System.Linq.Expressions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Linq.Parallel.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Linq.Parallel.dll
+    projectPath: Temp\bin\Debug\System.Linq.Parallel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Linq.Queryable.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Linq.Queryable.dll
+    projectPath: Temp\bin\Debug\System.Linq.Queryable.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.dll
+    projectPath: Temp\bin\Debug\System.Net.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Http.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.Http.dll
+    projectPath: Temp\bin\Debug\System.Net.Http.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.NameResolution.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.NameResolution.dll
+    projectPath: Temp\bin\Debug\System.Net.NameResolution.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.NetworkInformation.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.NetworkInformation.dll
+    projectPath: Temp\bin\Debug\System.Net.NetworkInformation.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Ping.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.Ping.dll
+    projectPath: Temp\bin\Debug\System.Net.Ping.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Primitives.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Net.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Requests.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.Requests.dll
+    projectPath: Temp\bin\Debug\System.Net.Requests.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Security.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.Security.dll
+    projectPath: Temp\bin\Debug\System.Net.Security.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.Sockets.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.Sockets.dll
+    projectPath: Temp\bin\Debug\System.Net.Sockets.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+    projectPath: Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.WebSockets.Client.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+    projectPath: Temp\bin\Debug\System.Net.WebSockets.Client.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Net.WebSockets.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Net.WebSockets.dll
+    projectPath: Temp\bin\Debug\System.Net.WebSockets.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Numerics.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Numerics.dll
+    projectPath: Temp\bin\Debug\System.Numerics.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Numerics.Vectors.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Numerics.Vectors.dll
+    projectPath: Temp\bin\Debug\System.Numerics.Vectors.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ObjectModel.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.ObjectModel.dll
+    projectPath: Temp\bin\Debug\System.ObjectModel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Reflection.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Reflection.dll
+    projectPath: Temp\bin\Debug\System.Reflection.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Reflection.Extensions.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Reflection.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Reflection.Primitives.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Reflection.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Reflection.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Resources.Reader.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Resources.Reader.dll
+    projectPath: Temp\bin\Debug\System.Resources.Reader.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Resources.ResourceManager.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Resources.ResourceManager.dll
+    projectPath: Temp\bin\Debug\System.Resources.ResourceManager.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Resources.Writer.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Resources.Writer.dll
+    projectPath: Temp\bin\Debug\System.Resources.Writer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+    projectPath: Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.dll
+    projectPath: Temp\bin\Debug\System.Runtime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Extensions.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Handles.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.Handles.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Handles.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.InteropServices.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.InteropServices.dll
+    projectPath: Temp\bin\Debug\System.Runtime.InteropServices.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+    projectPath: Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+    projectPath: Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Numerics.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.Numerics.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Numerics.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Serialization.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.Serialization.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+    projectPath: Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Claims.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Security.Claims.dll
+    projectPath: Temp\bin\Debug\System.Security.Claims.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+    projectPath: Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.Principal.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Security.Principal.dll
+    projectPath: Temp\bin\Debug\System.Security.Principal.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Security.SecureString.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Security.SecureString.dll
+    projectPath: Temp\bin\Debug\System.Security.SecureString.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ServiceModel.Web.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.ServiceModel.Web.dll
+    projectPath: Temp\bin\Debug\System.ServiceModel.Web.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Text.Encoding.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Text.Encoding.dll
+    projectPath: Temp\bin\Debug\System.Text.Encoding.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+    projectPath: Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Text.RegularExpressions.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Text.RegularExpressions.dll
+    projectPath: Temp\bin\Debug\System.Text.RegularExpressions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Threading.dll
+    projectPath: Temp\bin\Debug\System.Threading.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.Overlapped.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Threading.Overlapped.dll
+    projectPath: Temp\bin\Debug\System.Threading.Overlapped.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.Tasks.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Threading.Tasks.dll
+    projectPath: Temp\bin\Debug\System.Threading.Tasks.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+    projectPath: Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.Thread.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Threading.Thread.dll
+    projectPath: Temp\bin\Debug\System.Threading.Thread.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.ThreadPool.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Threading.ThreadPool.dll
+    projectPath: Temp\bin\Debug\System.Threading.ThreadPool.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Threading.Timer.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Threading.Timer.dll
+    projectPath: Temp\bin\Debug\System.Threading.Timer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Transactions.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Transactions.dll
+    projectPath: Temp\bin\Debug\System.Transactions.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.ValueTuple.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.ValueTuple.dll
+    projectPath: Temp\bin\Debug\System.ValueTuple.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Web.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Web.dll
+    projectPath: Temp\bin\Debug\System.Web.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Windows.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Windows.dll
+    projectPath: Temp\bin\Debug\System.Windows.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Xml.dll
+    projectPath: Temp\bin\Debug\System.Xml.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.Linq.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Xml.Linq.dll
+    projectPath: Temp\bin\Debug\System.Xml.Linq.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.ReaderWriter.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+    projectPath: Temp\bin\Debug\System.Xml.ReaderWriter.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.Serialization.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Xml.Serialization.dll
+    projectPath: Temp\bin\Debug\System.Xml.Serialization.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.XDocument.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Xml.XDocument.dll
+    projectPath: Temp\bin\Debug\System.Xml.XDocument.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.XmlDocument.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Xml.XmlDocument.dll
+    projectPath: Temp\bin\Debug\System.Xml.XmlDocument.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.XmlSerializer.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+    projectPath: Temp\bin\Debug\System.Xml.XmlSerializer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.XPath.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Xml.XPath.dll
+    projectPath: Temp\bin\Debug\System.Xml.XPath.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+    projectPath: Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+    projectPath: Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+    projectPath: Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+    projectPath: Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Cecil.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.Cecil.dll
+    projectPath: Temp\bin\Debug\Unity.Cecil.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Cecil.Mdb.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+    projectPath: Temp\bin\Debug\Unity.Cecil.Mdb.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Cecil.Pdb.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+    projectPath: Temp\bin\Debug\Unity.Cecil.Pdb.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.CecilTools.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.CecilTools.dll
+    projectPath: Temp\bin\Debug\Unity.CecilTools.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.DataContract.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.DataContract.dll
+    projectPath: Temp\bin\Debug\Unity.DataContract.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.IvyParser.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.IvyParser.dll
+    projectPath: Temp\bin\Debug\Unity.IvyParser.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+    projectPath: Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.Locator.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.Locator.dll
+    projectPath: Temp\bin\Debug\Unity.Locator.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.SerializationLogic.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.SerializationLogic.dll
+    projectPath: Temp\bin\Debug\Unity.SerializationLogic.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.TextMeshPro.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.TextMeshPro.dll
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.TextMeshPro.pdb
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.TextMeshPro.pdb
+    projectPath: Temp\bin\Debug\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\Unity.UNetWeaver.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\Unity.UNetWeaver.dll
+    projectPath: Temp\bin\Debug\Unity.UNetWeaver.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEditor.dll
+    projectPath: Temp\bin\Debug\UnityEditor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEditor.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEditor.xml
+    projectPath: Temp\bin\Debug\UnityEditor.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AIModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.AIModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AnimationModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AnimationModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AnimationModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AnimationModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ARModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.ARModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ARModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AudioModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.AudioModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.AudioModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.AudioModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.AudioModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.AudioModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.BaselibModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.BaselibModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ClothModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.ClothModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ClothModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.CoreModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.CoreModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.CoreModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.CoreModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.CoreModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.CoreModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.DirectorModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.DirectorModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.dll
+    projectPath: Temp\bin\Debug\UnityEngine.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+    projectPath: Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.GridModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.GridModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.GridModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.GridModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.GridModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.GridModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.InputModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.InputModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.InputModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.InputModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.InputModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.InputModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.Networking.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.Networking.dll
+    projectPath: Temp\bin\Debug\UnityEngine.Networking.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.StreamingModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.StreamingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TerrainModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TerrainModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TerrainModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.TerrainModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.TestRunner.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TilemapModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TilemapModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.Timeline.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.Timeline.dll
+    projectPath: Temp\bin\Debug\UnityEngine.Timeline.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TimelineModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TimelineModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.TLSModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.TLSModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.TLSModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UI.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UI.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UIModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UIModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UIModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UmbraModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UmbraModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UNETModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UNETModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UNETModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.VFXModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.VFXModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VFXModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.VideoModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.VideoModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VideoModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.VRModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.VRModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.VRModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.WindModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.WindModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.WindModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.XRModule.dll
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.XRModule.dll
+    projectPath: Temp\bin\Debug\UnityEngine.XRModule.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\bin\Debug\UnityEngine.XRModule.xml
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\bin\Debug\UnityEngine.XRModule.xml
+    projectPath: Temp\bin\Debug\UnityEngine.XRModule.xml
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -109,6 +1579,168 @@ MonoBehaviour:
   - path: Temp\UnityLockfile
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-00e6306c462742041aabf05d7f39e25d
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-00e6306c462742041aabf05d7f39e25d
+    projectPath: Temp\UnityTempFile-00e6306c462742041aabf05d7f39e25d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-04b1084e6c554ca4b9b96a939f755983
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-04b1084e6c554ca4b9b96a939f755983
+    projectPath: Temp\UnityTempFile-04b1084e6c554ca4b9b96a939f755983
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-183dc1e9cf05ba04ca6a1edd35c22f6a
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-183dc1e9cf05ba04ca6a1edd35c22f6a
+    projectPath: Temp\UnityTempFile-183dc1e9cf05ba04ca6a1edd35c22f6a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-2b709f8e25ddd6a4cbdfef8c6a14397a
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-2b709f8e25ddd6a4cbdfef8c6a14397a
+    projectPath: Temp\UnityTempFile-2b709f8e25ddd6a4cbdfef8c6a14397a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3089443f9ed08d547a257c71ffb583dc
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-3089443f9ed08d547a257c71ffb583dc
+    projectPath: Temp\UnityTempFile-3089443f9ed08d547a257c71ffb583dc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-333389eedf38dbb4ab52f2c6685fbf5e
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-333389eedf38dbb4ab52f2c6685fbf5e
+    projectPath: Temp\UnityTempFile-333389eedf38dbb4ab52f2c6685fbf5e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-38fa51df508ae77479bf337ffbeedcac
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-38fa51df508ae77479bf337ffbeedcac
+    projectPath: Temp\UnityTempFile-38fa51df508ae77479bf337ffbeedcac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-3c2a8a09e19ddef4393a2711da3a8d33
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-3c2a8a09e19ddef4393a2711da3a8d33
+    projectPath: Temp\UnityTempFile-3c2a8a09e19ddef4393a2711da3a8d33
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4e5472a23d346054eb9a5cb710f320c6
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-4e5472a23d346054eb9a5cb710f320c6
+    projectPath: Temp\UnityTempFile-4e5472a23d346054eb9a5cb710f320c6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-4e811ea61c1ab4742a2882be28f4a92f
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-4e811ea61c1ab4742a2882be28f4a92f
+    projectPath: Temp\UnityTempFile-4e811ea61c1ab4742a2882be28f4a92f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5b0c048f49bb82746aa44da7eacd5974
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-5b0c048f49bb82746aa44da7eacd5974
+    projectPath: Temp\UnityTempFile-5b0c048f49bb82746aa44da7eacd5974
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5b450a7607412444abb711e5acc1fe1f
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-5b450a7607412444abb711e5acc1fe1f
+    projectPath: Temp\UnityTempFile-5b450a7607412444abb711e5acc1fe1f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5c2571dfec4b19e42995e5fe9c51b8fd
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-5c2571dfec4b19e42995e5fe9c51b8fd
+    projectPath: Temp\UnityTempFile-5c2571dfec4b19e42995e5fe9c51b8fd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-70b9ef7316903cb4cb51d9d229ea7bb2
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-70b9ef7316903cb4cb51d9d229ea7bb2
+    projectPath: Temp\UnityTempFile-70b9ef7316903cb4cb51d9d229ea7bb2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7d01fb1f9d8291a4182513b2e8287036
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-7d01fb1f9d8291a4182513b2e8287036
+    projectPath: Temp\UnityTempFile-7d01fb1f9d8291a4182513b2e8287036
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-91308651365810e4f9bcf0569f4635db
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-91308651365810e4f9bcf0569f4635db
+    projectPath: Temp\UnityTempFile-91308651365810e4f9bcf0569f4635db
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9abe7157f06cbbe4e857e8ba34ffa69b
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-9abe7157f06cbbe4e857e8ba34ffa69b
+    projectPath: Temp\UnityTempFile-9abe7157f06cbbe4e857e8ba34ffa69b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-acc99b7724d87c24e9bd3d6c79d5efae
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-acc99b7724d87c24e9bd3d6c79d5efae
+    projectPath: Temp\UnityTempFile-acc99b7724d87c24e9bd3d6c79d5efae
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-aff13bad5d3a8b743b3f89695f0658b8
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-aff13bad5d3a8b743b3f89695f0658b8
+    projectPath: Temp\UnityTempFile-aff13bad5d3a8b743b3f89695f0658b8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-bdeaa999ee33a704ebcc25a24f258eae
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-bdeaa999ee33a704ebcc25a24f258eae
+    projectPath: Temp\UnityTempFile-bdeaa999ee33a704ebcc25a24f258eae
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ddd9ea4b5465c8b488469ef2829e3a2a
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-ddd9ea4b5465c8b488469ef2829e3a2a
+    projectPath: Temp\UnityTempFile-ddd9ea4b5465c8b488469ef2829e3a2a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-df240e838fb55764ab8564060dec23b7
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-df240e838fb55764ab8564060dec23b7
+    projectPath: Temp\UnityTempFile-df240e838fb55764ab8564060dec23b7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e431d09aa010eaa49bc19284d4e734d6
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-e431d09aa010eaa49bc19284d4e734d6
+    projectPath: Temp\UnityTempFile-e431d09aa010eaa49bc19284d4e734d6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e9d78e7d65b613541b53a702c1f4f558
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-e9d78e7d65b613541b53a702c1f4f558
+    projectPath: Temp\UnityTempFile-e9d78e7d65b613541b53a702c1f4f558
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ee25cb1060d1b35499061ba9bf9a0aed
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-ee25cb1060d1b35499061ba9bf9a0aed
+    projectPath: Temp\UnityTempFile-ee25cb1060d1b35499061ba9bf9a0aed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fa5d4ab4df3d05440b6cf60b26e2d5f8
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-fa5d4ab4df3d05440b6cf60b26e2d5f8
+    projectPath: Temp\UnityTempFile-fa5d4ab4df3d05440b6cf60b26e2d5f8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fd1073fa06f50dd47ba384b0c62c46a3
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-fd1073fa06f50dd47ba384b0c62c46a3
+    projectPath: Temp\UnityTempFile-fd1073fa06f50dd47ba384b0c62c46a3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
