@@ -290,26 +290,29 @@
     <Reference Include="sfw.net">
       <HintPath>Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
-    <Reference Include="SyntaxTree.Mono.Cecil">
-      <HintPath>Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/Michal/Documents/GitHub/dungeon-crawler/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Michal/Documents/GitHub/DungeonCrawlerFinal/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Michal/Documents/GitHub/dungeon-crawler/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Michal/Documents/GitHub/DungeonCrawlerFinal/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Michal/Documents/GitHub/dungeon-crawler/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Michal/Documents/GitHub/DungeonCrawlerFinal/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Michal/Documents/GitHub/dungeon-crawler/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Michal/Documents/GitHub/DungeonCrawlerFinal/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Users/Michal/Documents/GitHub/DungeonCrawlerFinal/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
       <HintPath>Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.Mono.Cecil">
+      <HintPath>Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="UnityVS.VersionSpecific">
       <HintPath>Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
@@ -725,8 +728,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Gothicvania Cemetery Artwork\about.txt" />
-    <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
-    <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
+    <None Include="Assets\Mega Fantasy Props Pack\README.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\SpellBookPreface\ReadMe.txt" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
