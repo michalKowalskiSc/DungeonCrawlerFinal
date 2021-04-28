@@ -624,6 +624,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Pliki_Przemek\BloodScript.cs" />
     <Compile Include="Assets\RunemarkStudio\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
@@ -643,6 +644,7 @@
   <ItemGroup>
     <None Include="Assets\Gothicvania Cemetery Artwork\about.txt" />
     <None Include="Assets\Mega Fantasy Props Pack\README.txt" />
+    <None Include="Assets\Pliki_Przemek\BloodShader.shader" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\SpellBookPreface\ReadMe.txt" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />

@@ -28,20 +28,29 @@ public class FirstPersonController : MonoBehaviour
     private AudioSource m_AudioSource; 
     public Texture2D cursorArrow;
     private Boolean isMoving = false;
-    private Transform target;
+    private Vector3 targetPosition;
+    private int dir;
+    float distance;
+    int platLayer;
 
     // Use this for initialization 
     private void Start()
     {
         m_CharacterController = GetComponent<CharacterController>();
         m_Camera = Camera.main;
-        //m_OriginalCameraPosition = m_Camera.transform.localPosition;
         //m_StepCycle = 0f;
         //m_NextStep = m_StepCycle/2f;
         m_AudioSource = GetComponent<AudioSource>();
         Cursor.visible = true;
         Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
         this.p_Camera = GameObject.Find("FirstPersonCharacter").GetComponent<Camera>();
+
+        //Distance is slightly larger than the
+        distance = m_CharacterController.radius + 0.2f;
+
+        //First add a Layer name to all platforms (I used MovingPlatform)
+        //Now this script won't run on regular objects, only platforms.
+        platLayer = LayerMask.NameToLayer("MovingPlatform");
     }
 
 
@@ -50,27 +59,68 @@ public class FirstPersonController : MonoBehaviour
     {
         RotateView();
         Cursor.visible = true;
-
-        // Move our position a step closer to the target.
-        float step = this.m_WalkSpeed * Time.deltaTime; // calculate distance to move
-        if (this.target != null) {
-            transform.position = Vector3.MoveTowards(transform.position, target.position, step);
-            // Check if the position of the cube and sphere are approximately equal.
-            if (Vector3.Distance(transform.position, target.position) < 0.001f)
-            {
-                // Swap the position of the cylinder.
-                GameObject.Destroy(this.target.gameObject);
-                this.target = null;
-                this.isMoving = false;
-            }      
-        }      
-
-
     }
-
 
     private void FixedUpdate()
     {
+        if (this.isMoving)// && this.target != null)
+        {
+            //transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+
+            if (this.dir == 0)
+            {
+                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), 1))
+                {
+                    print("There is something in front of the object!");
+                    this.isMoving = false;
+                }
+                else {
+                    transform.position += transform.forward * Time.deltaTime;
+                }                
+            }
+            else if (this.dir == 90)
+            {
+                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), 1))
+                {
+                    print("There is something in front of the object!");
+                    this.isMoving = false;
+                }
+                else
+                {
+                    transform.position += transform.right * Time.deltaTime;
+                }
+            }
+            else if (this.dir == 180)
+            {
+                if (Physics.Raycast(transform.position, transform.TransformDirection(-Vector3.forward), 1))
+                {
+                    print("There is something in front of the object!");
+                    this.isMoving = false;
+                }
+                else
+                {
+                    transform.position += -transform.forward * Time.deltaTime;
+                }
+            }
+            else if (this.dir == 270)
+            {
+                if (Physics.Raycast(transform.position, transform.TransformDirection(-Vector3.right), 1))
+                {
+                    print("There is something in front of the object!");
+                    this.isMoving = false;
+                }
+                else
+                {
+                    transform.position += -transform.right * Time.deltaTime;
+                }
+            }
+
+            if ((Vector3.Distance(transform.position, targetPosition) < 0.001f))// && (this.target != null))
+            {
+                this.isMoving = false;
+            }
+        }
+    
         //float speed;
         //GetInput(out speed);
         // always move along the camera forward as it is the direction that it being aimed at
@@ -79,7 +129,7 @@ public class FirstPersonController : MonoBehaviour
         // get a normal for the surface that is being touched to move along it
         //RaycastHit hitInfo;
         //Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
-       //                     m_CharacterController.height/2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
+        //                     m_CharacterController.height/2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
         //desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
         //m_MoveDir.x = desiredMove.x*speed;
@@ -175,47 +225,43 @@ public class FirstPersonController : MonoBehaviour
 */
 
     public void moveForward(float speed) {
-        if (!this.isMoving) {
-            this.isMoving = true;
+        if (this.isMoving == false) {            
             //m_Input = m_Camera.transform.forward;
-            Vector3 desiredMove;
-            // wektory do poruszania obiektu
-            Vector3 forMove = new Vector3(0, 0, 1);
-            Vector3 rightMove = new Vector3(1, 0, 0);
-            Vector3 backMove = new Vector3(0, 0, -1);
-            Vector3 leftMove = new Vector3(-1, 0, 0);
-
             // zmienne do przesuniêcia kamery i awatara
             float xTarget = this.m_CharacterController.transform.position.x;
             float yTarget = this.m_CharacterController.transform.position.y;
             float zTarget = this.m_CharacterController.transform.position.z;
-            float xCamera = xTarget;
-            float yCamera = 1.5f;
-            float zCamera = zTarget;
-            float y = (float)Math.Round(this.p_Camera.transform.rotation.y, 1);
 
-            if (y == 0) // kamera do przodu
+            // kierunek y kamery
+            float y = (float)Math.Round(m_Camera.transform.rotation.eulerAngles.y, 1);
+
+            if (y == 0) // kamera do przodu 0
             {
                 zTarget += 1;
+                this.dir = 0;
             }
-            else if (y == 0.7f) // kamera w prawo
+            else if (y == 90) // kamera w prawo 90
             {
                 xTarget += 1;
+                this.dir = 90;
             }
-            else if (y == 1)// kamera do ty³u
+            else if (y == 180)// kamera do ty³u 180
             {
                 zTarget -= 1;
+                this.dir = 180;
             }
-            else if (y == -0.7f)
+            else if (y == 270) // kamera w lewo 270
             {
                 xTarget -= 1;
+                this.dir = 270;
             }
 
-            GameObject cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
-            this.target = cylinder.transform;
-            this.target.transform.localScale = new Vector3(0.15f, 1.0f, 0.15f);
-            this.target.transform.position = new Vector3(xTarget, yTarget, zTarget);
-            Camera.main.transform.position = new Vector3(xCamera, yCamera, zCamera);
+            this.isMoving = true;
+            //GameObject cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+            //this.target = cylinder.transform;
+            //this.target.transform.localScale = new Vector3(0.15f, 1.0f, 0.15f);
+            this.targetPosition = new Vector3(xTarget, yTarget, zTarget);
+            //Camera.main.transform.position = new Vector3(xCamera, yCamera, zCamera);
         }
         
         
@@ -255,11 +301,17 @@ public class FirstPersonController : MonoBehaviour
         }            
     }
 
-    private void OnTriggerEnter(Collider other) { 
- 
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("trigger");
     }
 
-    private void OnCollisionEnter(Collision collision) { 
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("collision");
     }
+
+
 }
 
