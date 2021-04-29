@@ -69,20 +69,21 @@ public class FirstPersonController : MonoBehaviour
 
             if (this.dir == 0)
             {
-                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), 1))
+                if (Physics.SphereCast(transform.position, 0.3f, transform.forward, out _, 0.5f))
                 {
-                    print("There is something in front of the object!");
+                    print("There is something in front of the object! F");
                     this.isMoving = false;
                 }
                 else {
                     transform.position += transform.forward * Time.deltaTime;
+                    PlayFootStepAudio();
                 }                
             }
             else if (this.dir == 90)
             {
-                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), 1))
+                if (Physics.SphereCast(transform.position, 0.3f, transform.right, out _, 0.5f))
                 {
-                    print("There is something in front of the object!");
+                    print("There is something in front of the object! R");
                     this.isMoving = false;
                 }
                 else
@@ -92,9 +93,9 @@ public class FirstPersonController : MonoBehaviour
             }
             else if (this.dir == 180)
             {
-                if (Physics.Raycast(transform.position, transform.TransformDirection(-Vector3.forward), 1))
+                if (Physics.SphereCast(transform.position, 0.3f, -transform.forward, out _, 0.5f))
                 {
-                    print("There is something in front of the object!");
+                    print("There is something in front of the object! B");
                     this.isMoving = false;
                 }
                 else
@@ -104,9 +105,9 @@ public class FirstPersonController : MonoBehaviour
             }
             else if (this.dir == 270)
             {
-                if (Physics.Raycast(transform.position, transform.TransformDirection(-Vector3.right), 1))
+                if (Physics.SphereCast(transform.position, 0.3f, -transform.right, out _, 0.5f))
                 {
-                    print("There is something in front of the object!");
+                    print("There is something in front of the object! L");
                     this.isMoving = false;
                 }
                 else
@@ -165,12 +166,7 @@ public class FirstPersonController : MonoBehaviour
     */
     private void PlayFootStepAudio()
     {
-        if (!m_CharacterController.isGrounded)
-        {
-            return;
-        }
-        // pick & play a random footstep sound from the array,
-        // excluding sound at index 0
+        // pick & play a random footstep sound from the array,  excluding sound at index 0
         int n = Random.Range(1, m_FootstepSounds.Length);
         m_AudioSource.clip = m_FootstepSounds[n];
         m_AudioSource.PlayOneShot(m_AudioSource.clip);
@@ -179,7 +175,20 @@ public class FirstPersonController : MonoBehaviour
         m_FootstepSounds[0] = m_AudioSource.clip;
     }
 
+    public void cameraUp() {
+        if (!this.isMoving && (m_Camera.transform.rotation.x > -0.45f))
+        { 
+            m_Camera.transform.Rotate(-10, 0, 0);
+        } 
+    }
 
+    public void cameraDown()
+    {
+        if (!this.isMoving && (m_Camera.transform.rotation.x < 0.45f))
+        {
+            m_Camera.transform.Rotate(10, 0, 0);
+        }
+    }
     /*private void UpdateCameraPosition(float speed)
     {
         Vector3 newCameraPosition;
@@ -195,10 +204,10 @@ public class FirstPersonController : MonoBehaviour
     }
     */
 
-/*    private void GetInput(out float speed)
-    {
-       // speed = m_WalkSpeed;
-    }*/
+    /*    private void GetInput(out float speed)
+        {
+           // speed = m_WalkSpeed;
+        }*/
 
 
     private void RotateView() 
@@ -226,7 +235,6 @@ public class FirstPersonController : MonoBehaviour
 
     public void moveForward(float speed) {
         if (this.isMoving == false) {            
-            //m_Input = m_Camera.transform.forward;
             // zmienne do przesuniêcia kamery i awatara
             float xTarget = this.m_CharacterController.transform.position.x;
             float yTarget = this.m_CharacterController.transform.position.y;
@@ -234,6 +242,9 @@ public class FirstPersonController : MonoBehaviour
 
             // kierunek y kamery
             float y = (float)Math.Round(m_Camera.transform.rotation.eulerAngles.y, 1);
+
+            // reset ustawienia kamery
+            m_Camera.transform.rotation = Quaternion.Euler(0, y, 0);
 
             if (y == 0) // kamera do przodu 0
             {
@@ -257,11 +268,7 @@ public class FirstPersonController : MonoBehaviour
             }
 
             this.isMoving = true;
-            //GameObject cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
-            //this.target = cylinder.transform;
-            //this.target.transform.localScale = new Vector3(0.15f, 1.0f, 0.15f);
             this.targetPosition = new Vector3(xTarget, yTarget, zTarget);
-            //Camera.main.transform.position = new Vector3(xCamera, yCamera, zCamera);
         }
         
         
