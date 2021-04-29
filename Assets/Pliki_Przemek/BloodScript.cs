@@ -30,14 +30,18 @@ public class BloodScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag=="Trap")
+        if (other.gameObject.tag == "Trap")
         {
-            //bloodCounter = 100;
-            //bloodTri = true;
-            //BloodCounterClass.bloodCounter = 1000;
-            BloodCounterClass.bloodCollision = true;
-            //Debug.Log("trigger");
-            //Debug.Log(BloodCounterClass.bloodCounter);
+            if (((other.gameObject.name == "Pf_Trap_Fire") && (FireTrap.active == 1)) || ((other.gameObject.name == "Pf_Trap_Needle") && (NeedleTrap.active == 1)) || ((other.gameObject.name == "Pf_Trap_Cutter (1)") && (RotaryTrap.active == 1)))
+            {
+                //bloodCounter = 100;
+                //bloodTri = true;
+                //BloodCounterClass.bloodCounter = 1000;
+                BloodCounterClass.bloodCollision = true;
+                BloodCounterClass.trapDelay = 40;
+                //Debug.Log("trigger");
+                //Debug.Log(BloodCounterClass.bloodCounter);
+            }
         }
         
     }
@@ -46,12 +50,18 @@ public class BloodScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Trap")
         {
-            //bloodCounter = 100;
-            //bloodTri = true;
-            //Debug.Log("trigger");
-            BloodCounterClass.bloodCollision = false;
-            BloodCounterClass.bloodCounter = 150;
-            //Debug.Log(BloodCounterClass.bloodCounter);
+            if (((other.gameObject.name == "Pf_Trap_Fire") && (FireTrap.active==1)) || ((other.gameObject.name == "Pf_Trap_Needle") && (NeedleTrap.active == 1)) || ((other.gameObject.name == "Pf_Trap_Cutter (1)") && (RotaryTrap.active == 1)))
+            {
+                //bloodCounter = 100;
+                //bloodTri = true;
+                //Debug.Log("trigger");
+                if (BloodCounterClass.bloodCollision == true)
+                {
+                    BloodCounterClass.bloodCounter = 150;
+                }
+                BloodCounterClass.bloodCollision = false;
+                //Debug.Log(BloodCounterClass.bloodCounter);
+            }
         }
 
     }
@@ -85,7 +95,12 @@ public class BloodScript : MonoBehaviour
             }
         }
         */
-        if ((BloodCounterClass.bloodCounter > 0) || (BloodCounterClass.bloodCollision== true))
+        if (BloodCounterClass.trapDelay > 0)
+        {
+            BloodCounterClass.trapDelay--;
+        }
+
+        if (((BloodCounterClass.bloodCounter > 0) || (BloodCounterClass.bloodCollision== true)) && (BloodCounterClass.trapDelay<1))
         {
             BloodCounterClass.bloodCounter--;
             Graphics.Blit(src, dest, mat);
