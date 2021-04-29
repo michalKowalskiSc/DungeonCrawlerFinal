@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\PatrollingWarrior.cs" />
      <Compile Include="Assets\Pliki_Przemek\Blending2Texture.cs" />
      <Compile Include="Assets\Pliki_Przemek\BloodCounterClass.cs" />
      <Compile Include="Assets\Pliki_Przemek\BloodScript.cs" />
