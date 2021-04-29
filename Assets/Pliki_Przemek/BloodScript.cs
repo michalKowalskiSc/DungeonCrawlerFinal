@@ -6,12 +6,12 @@ using System;
 using UnityEngine;
 
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 
 public class BloodScript : MonoBehaviour
 {
-    private int bloodCounter = 0;
-    private Boolean bloodTri = false;
+    //private int bloodCounter = 0;
+    //private Boolean bloodTri = false;
 
     public Material mat;
 
@@ -33,20 +33,37 @@ public class BloodScript : MonoBehaviour
         if (other.gameObject.tag=="Trap")
         {
             //bloodCounter = 100;
-            bloodTri = true;
-            Debug.Log("trigger");
+            //bloodTri = true;
+            //BloodCounterClass.bloodCounter = 1000;
+            BloodCounterClass.bloodCollision = true;
+            //Debug.Log("trigger");
+            //Debug.Log(BloodCounterClass.bloodCounter);
         }
         
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Trap")
+        {
+            //bloodCounter = 100;
+            //bloodTri = true;
+            //Debug.Log("trigger");
+            BloodCounterClass.bloodCollision = false;
+            BloodCounterClass.bloodCounter = 150;
+            //Debug.Log(BloodCounterClass.bloodCounter);
+        }
+
     }
 
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Trap")
-        {
-            bloodCounter = 100;
-            Debug.Log("collision");
-        }
+        //if (collision.gameObject.tag == "Trap")
+        //{
+        //    bloodCounter = 100;
+        //    Debug.Log("collision");
+        //}
     }
 
     private void OnRenderImage(RenderTexture src, RenderTexture dest)
@@ -68,9 +85,9 @@ public class BloodScript : MonoBehaviour
             }
         }
         */
-        if ((bloodCounter > 0) || (bloodTri==true))
+        if ((BloodCounterClass.bloodCounter > 0) || (BloodCounterClass.bloodCollision== true))
         {
-            bloodCounter--;
+            BloodCounterClass.bloodCounter--;
             Graphics.Blit(src, dest, mat);
         }
         else
