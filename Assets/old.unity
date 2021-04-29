@@ -40907,6 +40907,8 @@ MonoBehaviour:
   m_RunstepLenghten: 0
   m_FootstepSounds: []
   cursorArrow: {fileID: 0}
+  sprDisarmDefault: {fileID: 0}
+  sprDisarmGreen: {fileID: 0}
 --- !u!82 &1053078249
 AudioSource:
   m_ObjectHideFlags: 0
@@ -61837,6 +61839,16 @@ PrefabInstance:
       propertyPath: m_FootstepSounds.Array.data[3]
       value: 
       objectReference: {fileID: 8300000, guid: e9714160ce34f2b4ab63ff8c27bd68e1, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: sprDisarmGreen
+      value: 
+      objectReference: {fileID: 21300066, guid: 096ec2c5d118e4e44a6a2e3abc02d7c2,
+        type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: sprDisarmDefault
+      value: 
+      objectReference: {fileID: 21300066, guid: 8bae6abdcebc3284bbef31c1d7f32a9d,
+        type: 3}
     - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Height
       value: 0.5
