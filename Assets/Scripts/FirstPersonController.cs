@@ -14,7 +14,7 @@ public class FirstPersonController : MonoBehaviour
 {
     [SerializeField] private float m_WalkSpeed; 
     [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
-    [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
+    //[SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
 
     private Camera m_Camera;
     private float m_YRotation; 
@@ -152,7 +152,7 @@ public class FirstPersonController : MonoBehaviour
         // m_MouseLook.UpdateCursorLock();
     }
 
-        private void playFootstepSounds()    {
+    private void playFootstepSounds()    {
         if (m_AudioSource.isPlaying == false) {
             m_AudioSource.volume = Random.Range(0.8f, 1f);
             m_AudioSource.pitch = Random.Range(0.8f, 1.1f);
