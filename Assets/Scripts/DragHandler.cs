@@ -28,9 +28,11 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        string itemTag = item.tag;
+
         item = null;
 
-        if (transform.parent == startParent || transform.parent == transform.root)  // gdy nie przejdzie
+        if (transform.parent == startParent || transform.parent == transform.root || (transform.parent.tag != itemTag && transform.parent.tag != "SlotInv"))  // gdy nie przejdzie
         {
             transform.position = startPosition;
             transform.SetParent(startParent);
