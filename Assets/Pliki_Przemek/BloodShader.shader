@@ -53,7 +53,8 @@
                 float4 col = tex2D(_MainTex, IN.uv);
                 float4 secondCol = tex2D(_BloodTex, IN.uv);
                 //col.r = IN.uv;
-                col.r = lerp(col, 1 - secondCol, 0.5) + 0.2;
+                col.r = lerp(col, 1 - secondCol, 0.5) + 0.2*(sin(5*_Time[1])+2);
+                //col.r = 0;
                 //col.g = col.g * 2;
                 //col.b = col.b * 2;
                 return col;
