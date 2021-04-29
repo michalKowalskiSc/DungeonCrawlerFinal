@@ -34,6 +34,8 @@ public class FirstPersonController : MonoBehaviour
     private bool playsteps;
     float distance;
     int platLayer;
+    public Sprite sprDisarmDefault;
+    public Sprite sprDisarmGreen;
 
     // Use this for initialization 
     private void Start()
@@ -293,10 +295,20 @@ public class FirstPersonController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("trigger");
+        if (other.tag == "Trap") {
+            GameObject btnDisarm = GameObject.Find("ButtonDisarmTrap");
+            btnDisarm.GetComponent<UnityEngine.UI.Image>().overrideSprite = this.sprDisarmGreen;
+        }
     }
 
 
+    public void OnTriggerExit(Collider other) {
+        if (other.tag == "Trap")
+        {
+            GameObject btnDisarm = GameObject.Find("ButtonDisarmTrap");
+            btnDisarm.GetComponent<UnityEngine.UI.Image>().overrideSprite = this.sprDisarmDefault;
+        }
+    }
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("collision");
