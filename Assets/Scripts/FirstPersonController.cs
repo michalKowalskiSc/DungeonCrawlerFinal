@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
@@ -12,7 +14,6 @@ public class FirstPersonController : MonoBehaviour
 {
     [SerializeField] private float m_WalkSpeed; 
     [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
-    [SerializeField] private float m_StepInterval;
     [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
 
     private Camera m_Camera;
@@ -22,14 +23,15 @@ public class FirstPersonController : MonoBehaviour
     private CharacterController m_CharacterController;
     private CollisionFlags m_CollisionFlags;
     private Vector3 m_OriginalCameraPosition;
-    private float m_StepCycle;
-    private float m_NextStep;
+    private int m_StepSoundLimit;
+    private int m_NextStepSound;
     Camera p_Camera;
     private AudioSource m_AudioSource; 
     public Texture2D cursorArrow;
     private Boolean isMoving = false;
     private Vector3 targetPosition;
     private int dir;
+    private bool playsteps;
     float distance;
     int platLayer;
 
@@ -38,9 +40,10 @@ public class FirstPersonController : MonoBehaviour
     {
         m_CharacterController = GetComponent<CharacterController>();
         m_Camera = Camera.main;
-        //m_StepCycle = 0f;
-        //m_NextStep = m_StepCycle/2f;
+        m_StepSoundLimit = 5;
+        m_NextStepSound = 1;
         m_AudioSource = GetComponent<AudioSource>();
+        m_AudioSource.Play();
         Cursor.visible = true;
         Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
         this.p_Camera = GameObject.Find("FirstPersonCharacter").GetComponent<Camera>();
@@ -69,49 +72,53 @@ public class FirstPersonController : MonoBehaviour
 
             if (this.dir == 0)
             {
-                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), 1))
+                if (Physics.SphereCast(transform.position, 0.3f, transform.forward, out _, 0.5f))
                 {
-                    print("There is something in front of the object!");
+                    print("There is something in front of the object! F");
                     this.isMoving = false;
                 }
                 else {
                     transform.position += transform.forward * Time.deltaTime;
+                    playFootstepSounds();
                 }                
             }
             else if (this.dir == 90)
             {
-                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), 1))
+                if (Physics.SphereCast(transform.position, 0.3f, transform.right, out _, 0.5f))
                 {
-                    print("There is something in front of the object!");
+                    print("There is something in front of the object! R");
                     this.isMoving = false;
                 }
                 else
                 {
                     transform.position += transform.right * Time.deltaTime;
+                    playFootstepSounds();
                 }
             }
             else if (this.dir == 180)
             {
-                if (Physics.Raycast(transform.position, transform.TransformDirection(-Vector3.forward), 1))
+                if (Physics.SphereCast(transform.position, 0.3f, -transform.forward, out _, 0.5f))
                 {
-                    print("There is something in front of the object!");
+                    print("There is something in front of the object! B");
                     this.isMoving = false;
                 }
                 else
                 {
                     transform.position += -transform.forward * Time.deltaTime;
+                    playFootstepSounds();
                 }
             }
             else if (this.dir == 270)
             {
-                if (Physics.Raycast(transform.position, transform.TransformDirection(-Vector3.right), 1))
+                if (Physics.SphereCast(transform.position, 0.3f, -transform.right, out _, 0.5f))
                 {
-                    print("There is something in front of the object!");
+                    print("There is something in front of the object! L");
                     this.isMoving = false;
                 }
                 else
                 {
                     transform.position += -transform.right * Time.deltaTime;
+                    playFootstepSounds();
                 }
             }
 
@@ -120,7 +127,7 @@ public class FirstPersonController : MonoBehaviour
                 this.isMoving = false;
             }
         }
-    
+
         //float speed;
         //GetInput(out speed);
         // always move along the camera forward as it is the direction that it being aimed at
@@ -143,43 +150,28 @@ public class FirstPersonController : MonoBehaviour
         // m_MouseLook.UpdateCursorLock();
     }
 
-
-    /*private void ProgressStepCycle(float speed)
-    {
-        if (m_CharacterController.velocity.sqrMagnitude > 0 && (m_Input.x != 0 || m_Input.y != 0))
-        {
-            m_StepCycle += (m_CharacterController.velocity.magnitude + (speed* m_RunstepLenghten))*
-                            Time.fixedDeltaTime;
+        private void playFootstepSounds()    {
+        if (m_AudioSource.isPlaying == false) {
+            m_AudioSource.volume = Random.Range(0.8f, 1f);
+            m_AudioSource.pitch = Random.Range(0.8f, 1.1f);
+            m_AudioSource.PlayOneShot(m_AudioSource.clip);
         }
-
-        if (!(m_StepCycle > m_NextStep))
-        {
-            return;
-        }
-
-        m_NextStep = m_StepCycle + m_StepInterval;
-
-        PlayFootStepAudio();
     }
 
-    */
-    private void PlayFootStepAudio()
-    {
-        if (!m_CharacterController.isGrounded)
-        {
-            return;
-        }
-        // pick & play a random footstep sound from the array,
-        // excluding sound at index 0
-        int n = Random.Range(1, m_FootstepSounds.Length);
-        m_AudioSource.clip = m_FootstepSounds[n];
-        m_AudioSource.PlayOneShot(m_AudioSource.clip);
-        // move picked sound to index 0 so it's not picked next time
-        m_FootstepSounds[n] = m_FootstepSounds[0];
-        m_FootstepSounds[0] = m_AudioSource.clip;
+    public void cameraUp() {
+        if (!this.isMoving && (m_Camera.transform.rotation.x > -0.45f))
+        { 
+            m_Camera.transform.Rotate(-10, 0, 0);
+        } 
     }
 
-
+    public void cameraDown()
+    {
+        if (!this.isMoving && (m_Camera.transform.rotation.x < 0.45f))
+        {
+            m_Camera.transform.Rotate(10, 0, 0);
+        }
+    }
     /*private void UpdateCameraPosition(float speed)
     {
         Vector3 newCameraPosition;
@@ -195,10 +187,10 @@ public class FirstPersonController : MonoBehaviour
     }
     */
 
-/*    private void GetInput(out float speed)
-    {
-       // speed = m_WalkSpeed;
-    }*/
+    /*    private void GetInput(out float speed)
+        {
+           // speed = m_WalkSpeed;
+        }*/
 
 
     private void RotateView() 
@@ -226,7 +218,6 @@ public class FirstPersonController : MonoBehaviour
 
     public void moveForward(float speed) {
         if (this.isMoving == false) {            
-            //m_Input = m_Camera.transform.forward;
             // zmienne do przesuniêcia kamery i awatara
             float xTarget = this.m_CharacterController.transform.position.x;
             float yTarget = this.m_CharacterController.transform.position.y;
@@ -234,6 +225,9 @@ public class FirstPersonController : MonoBehaviour
 
             // kierunek y kamery
             float y = (float)Math.Round(m_Camera.transform.rotation.eulerAngles.y, 1);
+
+            // reset ustawienia kamery
+            m_Camera.transform.rotation = Quaternion.Euler(0, y, 0);
 
             if (y == 0) // kamera do przodu 0
             {
@@ -257,11 +251,7 @@ public class FirstPersonController : MonoBehaviour
             }
 
             this.isMoving = true;
-            //GameObject cylinder = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
-            //this.target = cylinder.transform;
-            //this.target.transform.localScale = new Vector3(0.15f, 1.0f, 0.15f);
             this.targetPosition = new Vector3(xTarget, yTarget, zTarget);
-            //Camera.main.transform.position = new Vector3(xCamera, yCamera, zCamera);
         }
         
         
