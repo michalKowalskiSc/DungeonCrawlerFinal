@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
@@ -12,7 +14,6 @@ public class FirstPersonController : MonoBehaviour
 {
     [SerializeField] private float m_WalkSpeed; 
     [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
-    [SerializeField] private float m_StepInterval;
     [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
 
     private Camera m_Camera;
@@ -22,14 +23,15 @@ public class FirstPersonController : MonoBehaviour
     private CharacterController m_CharacterController;
     private CollisionFlags m_CollisionFlags;
     private Vector3 m_OriginalCameraPosition;
-    private float m_StepCycle;
-    private float m_NextStep;
+    private int m_StepSoundLimit;
+    private int m_NextStepSound;
     Camera p_Camera;
     private AudioSource m_AudioSource; 
     public Texture2D cursorArrow;
     private Boolean isMoving = false;
     private Vector3 targetPosition;
     private int dir;
+    private bool playsteps;
     float distance;
     int platLayer;
 
@@ -38,9 +40,10 @@ public class FirstPersonController : MonoBehaviour
     {
         m_CharacterController = GetComponent<CharacterController>();
         m_Camera = Camera.main;
-        //m_StepCycle = 0f;
-        //m_NextStep = m_StepCycle/2f;
+        m_StepSoundLimit = 5;
+        m_NextStepSound = 1;
         m_AudioSource = GetComponent<AudioSource>();
+        m_AudioSource.Play();
         Cursor.visible = true;
         Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
         this.p_Camera = GameObject.Find("FirstPersonCharacter").GetComponent<Camera>();
@@ -76,7 +79,7 @@ public class FirstPersonController : MonoBehaviour
                 }
                 else {
                     transform.position += transform.forward * Time.deltaTime;
-                    PlayFootStepAudio();
+                    playFootstepSounds();
                 }                
             }
             else if (this.dir == 90)
@@ -89,6 +92,7 @@ public class FirstPersonController : MonoBehaviour
                 else
                 {
                     transform.position += transform.right * Time.deltaTime;
+                    playFootstepSounds();
                 }
             }
             else if (this.dir == 180)
@@ -101,6 +105,7 @@ public class FirstPersonController : MonoBehaviour
                 else
                 {
                     transform.position += -transform.forward * Time.deltaTime;
+                    playFootstepSounds();
                 }
             }
             else if (this.dir == 270)
@@ -113,6 +118,7 @@ public class FirstPersonController : MonoBehaviour
                 else
                 {
                     transform.position += -transform.right * Time.deltaTime;
+                    playFootstepSounds();
                 }
             }
 
@@ -121,7 +127,7 @@ public class FirstPersonController : MonoBehaviour
                 this.isMoving = false;
             }
         }
-    
+
         //float speed;
         //GetInput(out speed);
         // always move along the camera forward as it is the direction that it being aimed at
@@ -144,35 +150,12 @@ public class FirstPersonController : MonoBehaviour
         // m_MouseLook.UpdateCursorLock();
     }
 
-
-    /*private void ProgressStepCycle(float speed)
-    {
-        if (m_CharacterController.velocity.sqrMagnitude > 0 && (m_Input.x != 0 || m_Input.y != 0))
-        {
-            m_StepCycle += (m_CharacterController.velocity.magnitude + (speed* m_RunstepLenghten))*
-                            Time.fixedDeltaTime;
+        private void playFootstepSounds()    {
+        if (m_AudioSource.isPlaying == false) {
+            m_AudioSource.volume = Random.Range(0.8f, 1f);
+            m_AudioSource.pitch = Random.Range(0.8f, 1.1f);
+            m_AudioSource.PlayOneShot(m_AudioSource.clip);
         }
-
-        if (!(m_StepCycle > m_NextStep))
-        {
-            return;
-        }
-
-        m_NextStep = m_StepCycle + m_StepInterval;
-
-        PlayFootStepAudio();
-    }
-
-    */
-    private void PlayFootStepAudio()
-    {
-        // pick & play a random footstep sound from the array,  excluding sound at index 0
-        int n = Random.Range(1, m_FootstepSounds.Length);
-        m_AudioSource.clip = m_FootstepSounds[n];
-        m_AudioSource.PlayOneShot(m_AudioSource.clip);
-        // move picked sound to index 0 so it's not picked next time
-        m_FootstepSounds[n] = m_FootstepSounds[0];
-        m_FootstepSounds[0] = m_AudioSource.clip;
     }
 
     public void cameraUp() {
