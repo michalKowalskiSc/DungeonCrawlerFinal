@@ -8105,7 +8105,7 @@ GameObject:
   - component: {fileID: 210232041}
   m_Layer: 5
   m_Name: SlotLeftArm
-  m_TagString: Untagged
+  m_TagString: SlotArm
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9876,7 +9876,7 @@ GameObject:
   - component: {fileID: 249717010}
   m_Layer: 5
   m_Name: SlotInventory9
-  m_TagString: Untagged
+  m_TagString: SlotInv
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10548,7 +10548,7 @@ GameObject:
   - component: {fileID: 276417066}
   m_Layer: 5
   m_Name: ButtonQuick3
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11200,7 +11200,7 @@ GameObject:
   - component: {fileID: 303697391}
   m_Layer: 5
   m_Name: SlotInventory1
-  m_TagString: Untagged
+  m_TagString: SlotInv
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12433,6 +12433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HealthPotion (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3737797358445418973, guid: cde4e7fbda0c7594ca4696b42fd72596,
+        type: 3}
+      propertyPath: m_TagString
+      value: SlotQuick
       objectReference: {fileID: 0}
     - target: {fileID: 3737797358445418974, guid: cde4e7fbda0c7594ca4696b42fd72596,
         type: 3}
@@ -17886,7 +17891,7 @@ GameObject:
   - component: {fileID: 469399905}
   m_Layer: 5
   m_Name: SlotRightPalm
-  m_TagString: Untagged
+  m_TagString: SlotPalm
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18770,7 +18775,7 @@ GameObject:
   - component: {fileID: 504961812}
   m_Layer: 5
   m_Name: SlotInventory8
-  m_TagString: Untagged
+  m_TagString: SlotInv
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18893,7 +18898,7 @@ GameObject:
   - component: {fileID: 511659180}
   m_Layer: 5
   m_Name: SlotInventory2
-  m_TagString: Untagged
+  m_TagString: SlotInv
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20578,7 +20583,7 @@ MeshCollider:
   m_GameObject: {fileID: 554571948}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -24171,7 +24176,7 @@ GameObject:
   - component: {fileID: 656134993}
   m_Layer: 5
   m_Name: ButtonQuick2
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24759,7 +24764,7 @@ GameObject:
   - component: {fileID: 666727801}
   m_Layer: 5
   m_Name: ButtonQuick2
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25203,7 +25208,7 @@ GameObject:
   - component: {fileID: 670664947}
   m_Layer: 5
   m_Name: ButtonQuick3
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30338,6 +30343,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BasicArmor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517333537772929435, guid: c2f9322c5daa14441befe1cf77f8f81e,
+        type: 3}
+      propertyPath: m_TagString
+      value: SlotChest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2f9322c5daa14441befe1cf77f8f81e, type: 3}
@@ -36156,7 +36166,7 @@ GameObject:
   - component: {fileID: 931025558}
   m_Layer: 5
   m_Name: SlotRightArm
-  m_TagString: Untagged
+  m_TagString: SlotArm
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36280,7 +36290,7 @@ GameObject:
   - component: {fileID: 934794106}
   m_Layer: 5
   m_Name: ButtonQuick1
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37627,7 +37637,7 @@ GameObject:
   - component: {fileID: 965242606}
   m_Layer: 5
   m_Name: SlotInventory4
-  m_TagString: Untagged
+  m_TagString: SlotInv
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37931,6 +37941,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ManaPotion
+      objectReference: {fileID: 0}
+    - target: {fileID: 2444433577692599664, guid: c4505b6db7ea7394ea42707d162e29a1,
+        type: 3}
+      propertyPath: m_TagString
+      value: SlotQuick
       objectReference: {fileID: 0}
     - target: {fileID: 2444433577692599667, guid: c4505b6db7ea7394ea42707d162e29a1,
         type: 3}
@@ -38724,7 +38739,7 @@ GameObject:
   - component: {fileID: 990280842}
   m_Layer: 5
   m_Name: SlotInventory3
-  m_TagString: Untagged
+  m_TagString: SlotInv
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38915,7 +38930,7 @@ GameObject:
   - component: {fileID: 993705164}
   m_Layer: 5
   m_Name: SlotHead
-  m_TagString: Untagged
+  m_TagString: SlotHead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39774,7 +39789,7 @@ GameObject:
   - component: {fileID: 1018646164}
   m_Layer: 5
   m_Name: ButtonQuick1
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43156,7 +43171,7 @@ GameObject:
   - component: {fileID: 1088337324}
   m_Layer: 5
   m_Name: ButtonQuick1
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43902,7 +43917,7 @@ GameObject:
   - component: {fileID: 1103441867}
   m_Layer: 5
   m_Name: ButtonQuick1
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46007,7 +46022,7 @@ GameObject:
   - component: {fileID: 1185014067}
   m_Layer: 5
   m_Name: SlotLeftPalm
-  m_TagString: Untagged
+  m_TagString: SlotPalm
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50692,6 +50707,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthPotion
       objectReference: {fileID: 0}
+    - target: {fileID: 1068430276016944212, guid: 3eab386a6ba70ba4d94f2584533f0bee,
+        type: 3}
+      propertyPath: m_TagString
+      value: SlotQuick
+      objectReference: {fileID: 0}
     - target: {fileID: 1068430276016944215, guid: 3eab386a6ba70ba4d94f2584533f0bee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -52288,7 +52308,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1350335831}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 126353842}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1350335831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53256,7 +53287,7 @@ GameObject:
   - component: {fileID: 1384205931}
   m_Layer: 5
   m_Name: SlotInventory5
-  m_TagString: Untagged
+  m_TagString: SlotInv
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53545,7 +53576,7 @@ GameObject:
   - component: {fileID: 1389704079}
   m_Layer: 5
   m_Name: ButtonQuick3
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57247,6 +57278,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ManaPotion
       objectReference: {fileID: 0}
+    - target: {fileID: 2444433577692599664, guid: c4505b6db7ea7394ea42707d162e29a1,
+        type: 3}
+      propertyPath: m_TagString
+      value: SlotQuick
+      objectReference: {fileID: 0}
     - target: {fileID: 2444433577692599667, guid: c4505b6db7ea7394ea42707d162e29a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -58731,6 +58767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoldenRing
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170977769318713875, guid: 24b2ccf2e3da8b54f8beaf06cabdc641,
+        type: 3}
+      propertyPath: m_TagString
+      value: SlotPalm
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24b2ccf2e3da8b54f8beaf06cabdc641, type: 3}
@@ -61942,7 +61983,7 @@ GameObject:
   - component: {fileID: 1591404117}
   m_Layer: 5
   m_Name: SlotInventory7
-  m_TagString: Untagged
+  m_TagString: SlotInv
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64732,6 +64773,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meat
       objectReference: {fileID: 0}
+    - target: {fileID: 6855474802291885493, guid: 12db5d5d6f4b11840ac9d56132ef2a4e,
+        type: 3}
+      propertyPath: m_TagString
+      value: SlotQuick
+      objectReference: {fileID: 0}
     - target: {fileID: 6855474802291885494, guid: 12db5d5d6f4b11840ac9d56132ef2a4e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -65392,6 +65438,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ScrollOfLightning
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711319498460819802, guid: d428c68244f267946935e9c0262db61f,
+        type: 3}
+      propertyPath: m_TagString
+      value: SlotQuick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d428c68244f267946935e9c0262db61f, type: 3}
@@ -66632,6 +66683,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BasicHelmet
       objectReference: {fileID: 0}
+    - target: {fileID: 6532828826626411706, guid: 17c0555b577ebbe40add4f2ea419dd84,
+        type: 3}
+      propertyPath: m_TagString
+      value: SlotHead
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c0555b577ebbe40add4f2ea419dd84, type: 3}
 --- !u!224 &1719281896 stripped
@@ -67009,7 +67065,7 @@ GameObject:
   - component: {fileID: 1730564505}
   m_Layer: 5
   m_Name: ButtonQuick2
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72055,7 +72111,7 @@ GameObject:
   - component: {fileID: 1867916568}
   m_Layer: 5
   m_Name: ButtonQuick3
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72919,7 +72975,7 @@ GameObject:
   - component: {fileID: 1892615249}
   m_Layer: 5
   m_Name: SlotInventory6
-  m_TagString: Untagged
+  m_TagString: SlotInv
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76019,7 +76075,7 @@ GameObject:
   - component: {fileID: 1998003342}
   m_Layer: 5
   m_Name: SlotChest
-  m_TagString: Untagged
+  m_TagString: SlotChest
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78226,6 +78282,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthPotion (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2888194815632784615, guid: e4cea239069870b4c830d1896369c572,
+        type: 3}
+      propertyPath: m_TagString
+      value: SlotQuick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4cea239069870b4c830d1896369c572, type: 3}
 --- !u!224 &2045174492 stripped
@@ -80174,7 +80235,7 @@ GameObject:
   - component: {fileID: 2127528249}
   m_Layer: 5
   m_Name: ButtonQuick2
-  m_TagString: Untagged
+  m_TagString: SlotQuick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

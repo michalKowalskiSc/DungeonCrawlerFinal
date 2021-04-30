@@ -225,9 +225,9 @@ public class FirstPersonController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggered by " + other.tag);
-        if (other.tag == "Trap") {
+        if (other.tag == "Trap" && FireTrap.active != 0) {
             canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 1);
-            canvas.GetComponent<CanvasManager>().ToggleNotification();
+            canvas.GetComponent<CanvasManager>().ToggleNotification(true);
         }
     }
 
@@ -236,7 +236,7 @@ public class FirstPersonController : MonoBehaviour
         if (other.tag == "Trap")
         {
             canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 0);
-            canvas.GetComponent<CanvasManager>().ToggleNotification();
+            canvas.GetComponent<CanvasManager>().ToggleNotification(false);
         }
     }
     private void OnCollisionEnter(Collision collision)
