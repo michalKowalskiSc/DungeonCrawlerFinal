@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\FinishZone.cs" />
      <Compile Include="Assets\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\PatrollingScript.cs" />
      <Compile Include="Assets\Scripts\Slot.cs" />
      <Compile Include="Assets\SimpleSkeletonFree\Script\Character\PlayerController.cs" />
      <None Include="Assets\Pliki_Przemek\BloodShader.shader" />
