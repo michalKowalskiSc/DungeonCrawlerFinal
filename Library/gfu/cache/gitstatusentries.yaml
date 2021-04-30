@@ -13,48 +13,498 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-04-30T12:47:54.169+02:00
-  initializedAtString: 2021-04-30T12:22:50.843+02:00
+  lastUpdatedAtString: 2021-04-30T14:14:02.476+02:00
+  initializedAtString: 2021-04-30T12:50:13.579+02:00
   entries:
-  - path: .vs\DungeonCrawlerFinal\v16\.suo
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\.vs\DungeonCrawlerFinal\v16\.suo
-    projectPath: .vs\DungeonCrawlerFinal\v16\.suo
+  - path: Assets\Creature_Monsters_X.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X.meta
+    projectPath: Assets\Creature_Monsters_X.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation.meta
+    projectPath: Assets\Creature_Monsters_X\Animation.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Materials.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Materials.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Materials\Monstr_diffuse.mat
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Materials\Monstr_diffuse.mat
+    projectPath: Assets\Creature_Monsters_X\Animation\Materials\Monstr_diffuse.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Materials\Monstr_diffuse.mat.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Materials\Monstr_diffuse.mat.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Materials\Monstr_diffuse.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Attack(2).FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Attack(2).FBX
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Attack(2).FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Attack(2).FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Attack(2).FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Attack(2).FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Dead.FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Dead.FBX
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Dead.FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Dead.FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Dead.FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Dead.FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Get_Hit.FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Get_Hit.FBX
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Get_Hit.FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Get_Hit.FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Get_Hit.FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Get_Hit.FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Idle.FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Idle.FBX
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Idle.FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Idle.FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Idle.FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Idle.FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Jump.FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Jump.FBX
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Jump.FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Jump.FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Jump.FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Jump.FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Run.FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Run.FBX
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Run.FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Run.FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Run.FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Run.FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Run_Mec.FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Run_Mec.FBX
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Run_Mec.FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Run_Mec.FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Run_Mec.FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Run_Mec.FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Shout.FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Shout.FBX
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Shout.FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Shout.FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Shout.FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Shout.FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Walk.FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Walk.FBX
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Walk.FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Walk.FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Walk.FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Walk.FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Walk_Mec.FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Walk_Mec.FBX
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Walk_Mec.FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monster_X@Walk_Mec.FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monster_X@Walk_Mec.FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Monster_X@Walk_Mec.FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monstrer_X@Attack(1).FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monstrer_X@Attack(1).FBX
+    projectPath: Assets\Creature_Monsters_X\Animation\Monstrer_X@Attack(1).FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Animation\Monstrer_X@Attack(1).FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Animation\Monstrer_X@Attack(1).FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Animation\Monstrer_X@Attack(1).FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Demo_scene.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Demo_scene.meta
+    projectPath: Assets\Creature_Monsters_X\Demo_scene.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Demo_scene\Demo_scene.unity
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Demo_scene\Demo_scene.unity
+    projectPath: Assets\Creature_Monsters_X\Demo_scene\Demo_scene.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Demo_scene\Demo_scene.unity.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Demo_scene\Demo_scene.unity.meta
+    projectPath: Assets\Creature_Monsters_X\Demo_scene\Demo_scene.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Materials.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Materials.meta
+    projectPath: Assets\Creature_Monsters_X\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Black.mat
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Black.mat
+    projectPath: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Black.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Black.mat.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Black.mat.meta
+    projectPath: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Black.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Brown.mat
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Brown.mat
+    projectPath: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Brown.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Brown.mat.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Brown.mat.meta
+    projectPath: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Brown.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Green.mat
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Green.mat
+    projectPath: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Green.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Green.mat.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Green.mat.meta
+    projectPath: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Green.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Purple.mat
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Purple.mat
+    projectPath: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Purple.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Purple.mat.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Purple.mat.meta
+    projectPath: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Purple.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Turquoise.mat
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Turquoise.mat
+    projectPath: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Turquoise.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Turquoise.mat.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Turquoise.mat.meta
+    projectPath: Assets\Creature_Monsters_X\Materials\Monster_X_diffuse_Turquoise.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Mesh.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Mesh.meta
+    projectPath: Assets\Creature_Monsters_X\Mesh.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Mesh\Materials.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Mesh\Materials.meta
+    projectPath: Assets\Creature_Monsters_X\Mesh\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Mesh\Materials\Monstr_diffuse.mat
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Mesh\Materials\Monstr_diffuse.mat
+    projectPath: Assets\Creature_Monsters_X\Mesh\Materials\Monstr_diffuse.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Mesh\Materials\Monstr_diffuse.mat.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Mesh\Materials\Monstr_diffuse.mat.meta
+    projectPath: Assets\Creature_Monsters_X\Mesh\Materials\Monstr_diffuse.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Mesh\Mesh.FBX
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Mesh\Mesh.FBX
+    projectPath: Assets\Creature_Monsters_X\Mesh\Mesh.FBX
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Mesh\Mesh.FBX.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Mesh\Mesh.FBX.meta
+    projectPath: Assets\Creature_Monsters_X\Mesh\Mesh.FBX.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Monster_X.controller
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Monster_X.controller
+    projectPath: Assets\Creature_Monsters_X\Monster_X.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Monster_X.controller.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Monster_X.controller.meta
+    projectPath: Assets\Creature_Monsters_X\Monster_X.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Prefabs.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Prefabs.meta
+    projectPath: Assets\Creature_Monsters_X\Prefabs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Prefabs\Monster_X_Black.prefab
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Prefabs\Monster_X_Black.prefab
+    projectPath: Assets\Creature_Monsters_X\Prefabs\Monster_X_Black.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Prefabs\Monster_X_Black.prefab.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Prefabs\Monster_X_Black.prefab.meta
+    projectPath: Assets\Creature_Monsters_X\Prefabs\Monster_X_Black.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Prefabs\Monster_X_Brown.prefab
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Prefabs\Monster_X_Brown.prefab
+    projectPath: Assets\Creature_Monsters_X\Prefabs\Monster_X_Brown.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Prefabs\Monster_X_Brown.prefab.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Prefabs\Monster_X_Brown.prefab.meta
+    projectPath: Assets\Creature_Monsters_X\Prefabs\Monster_X_Brown.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Prefabs\Monster_X_Purple.prefab
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Prefabs\Monster_X_Purple.prefab
+    projectPath: Assets\Creature_Monsters_X\Prefabs\Monster_X_Purple.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Prefabs\Monster_X_Purple.prefab.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Prefabs\Monster_X_Purple.prefab.meta
+    projectPath: Assets\Creature_Monsters_X\Prefabs\Monster_X_Purple.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures.meta
+    projectPath: Assets\Creature_Monsters_X\Textures.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Black.tga
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Black.tga
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Black.tga
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Black.tga.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Black.tga.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Black.tga.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BlackPSD.psd
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BlackPSD.psd
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BlackPSD.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BlackPSD.psd.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BlackPSD.psd.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BlackPSD.psd.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Brown.tga
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Brown.tga
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Brown.tga
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Brown.tga.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Brown.tga.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Brown.tga.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BrownPSD.psd
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BrownPSD.psd
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BrownPSD.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BrownPSD.psd.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BrownPSD.psd.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_BrownPSD.psd.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Green.tga
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Green.tga
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Green.tga
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Green.tga.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Green.tga.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Green.tga.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_GreenPSD.psd
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_GreenPSD.psd
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_GreenPSD.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_GreenPSD.psd.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_GreenPSD.psd.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_GreenPSD.psd.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Purple.tga
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Purple.tga
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Purple.tga
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Purple.tga.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Purple.tga.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Purple.tga.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_PurplePSD.psd
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_PurplePSD.psd
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_PurplePSD.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_PurplePSD.psd.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_PurplePSD.psd.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_PurplePSD.psd.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Turquoise.tga
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Turquoise.tga
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Turquoise.tga
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Turquoise.tga.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Turquoise.tga.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_Turquoise.tga.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_TurquoisePSD.psd
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_TurquoisePSD.psd
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_TurquoisePSD.psd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_TurquoisePSD.psd.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_TurquoisePSD.psd.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_diffuse_TurquoisePSD.psd.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_normals.tga
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_normals.tga
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_normals.tga
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_normals.tga.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_normals.tga.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_normals.tga.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_specular.tga
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_specular.tga
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_specular.tga
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Creature_Monsters_X\Textures\Monster_X_specular.tga.meta
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Creature_Monsters_X\Textures\Monster_X_specular.tga.meta
+    projectPath: Assets\Creature_Monsters_X\Textures\Monster_X_specular.tga.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\old.unity
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\old.unity
     projectPath: Assets\old.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\PatrollingScript.cs
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Scripts\PatrollingScript.cs
-    projectPath: Assets\Scripts\PatrollingScript.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\PatrollingScript.cs.meta
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\Scripts\PatrollingScript.cs.meta
-    projectPath: Assets\Scripts\PatrollingScript.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\SimpleSkeletonFree\animation\SkeletonAC.controller
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Assets\SimpleSkeletonFree\animation\SkeletonAC.controller
-    projectPath: Assets\SimpleSkeletonFree\animation\SkeletonAC.controller
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\AnnotationManager
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\AnnotationManager
-    projectPath: Library\AnnotationManager
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -94,84 +544,552 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\metadata\74\746a0e43628b22f4cae039307eb6e797
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\74\746a0e43628b22f4cae039307eb6e797
-    projectPath: Library\metadata\74\746a0e43628b22f4cae039307eb6e797
+  - path: Library\metadata\00\00af54dd1911d2849a200ccc273d1813
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\00\00af54dd1911d2849a200ccc273d1813
+    projectPath: Library\metadata\00\00af54dd1911d2849a200ccc273d1813
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\74\746a0e43628b22f4cae039307eb6e797.info
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\74\746a0e43628b22f4cae039307eb6e797.info
-    projectPath: Library\metadata\74\746a0e43628b22f4cae039307eb6e797.info
+  - path: Library\metadata\00\00af54dd1911d2849a200ccc273d1813.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\00\00af54dd1911d2849a200ccc273d1813.info
+    projectPath: Library\metadata\00\00af54dd1911d2849a200ccc273d1813.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+  - path: Library\metadata\05\05cce5d45378e1c498480f2c7d5ae763
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\05\05cce5d45378e1c498480f2c7d5ae763
+    projectPath: Library\metadata\05\05cce5d45378e1c498480f2c7d5ae763
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\05\05cce5d45378e1c498480f2c7d5ae763.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\05\05cce5d45378e1c498480f2c7d5ae763.info
+    projectPath: Library\metadata\05\05cce5d45378e1c498480f2c7d5ae763.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\17\17666354615635440bdbb6e754352c1e
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\17\17666354615635440bdbb6e754352c1e
+    projectPath: Library\metadata\17\17666354615635440bdbb6e754352c1e
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\17\17666354615635440bdbb6e754352c1e.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\17\17666354615635440bdbb6e754352c1e.info
+    projectPath: Library\metadata\17\17666354615635440bdbb6e754352c1e.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\20\202e16bd016fb214d8a3d8f0b5d541e1
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\20\202e16bd016fb214d8a3d8f0b5d541e1
+    projectPath: Library\metadata\20\202e16bd016fb214d8a3d8f0b5d541e1
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\20\202e16bd016fb214d8a3d8f0b5d541e1.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\20\202e16bd016fb214d8a3d8f0b5d541e1.info
+    projectPath: Library\metadata\20\202e16bd016fb214d8a3d8f0b5d541e1.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\22\226dacc2ead096b45b5e70aace3ee3e8
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\22\226dacc2ead096b45b5e70aace3ee3e8
+    projectPath: Library\metadata\22\226dacc2ead096b45b5e70aace3ee3e8
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\22\226dacc2ead096b45b5e70aace3ee3e8.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\22\226dacc2ead096b45b5e70aace3ee3e8.info
+    projectPath: Library\metadata\22\226dacc2ead096b45b5e70aace3ee3e8.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\23\233d4e0f3fe21cc44bdee5556298d03b
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\23\233d4e0f3fe21cc44bdee5556298d03b
+    projectPath: Library\metadata\23\233d4e0f3fe21cc44bdee5556298d03b
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\23\233d4e0f3fe21cc44bdee5556298d03b.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\23\233d4e0f3fe21cc44bdee5556298d03b.info
+    projectPath: Library\metadata\23\233d4e0f3fe21cc44bdee5556298d03b.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\26\269d7bb53c1b1a54581fd4e30d47d3c8
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\26\269d7bb53c1b1a54581fd4e30d47d3c8
+    projectPath: Library\metadata\26\269d7bb53c1b1a54581fd4e30d47d3c8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\26\269d7bb53c1b1a54581fd4e30d47d3c8.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\26\269d7bb53c1b1a54581fd4e30d47d3c8.info
+    projectPath: Library\metadata\26\269d7bb53c1b1a54581fd4e30d47d3c8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\31\31bbba4eb84b93d449a4e52fb6514d4a
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\31\31bbba4eb84b93d449a4e52fb6514d4a
+    projectPath: Library\metadata\31\31bbba4eb84b93d449a4e52fb6514d4a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\31\31bbba4eb84b93d449a4e52fb6514d4a.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\31\31bbba4eb84b93d449a4e52fb6514d4a.info
+    projectPath: Library\metadata\31\31bbba4eb84b93d449a4e52fb6514d4a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\32\3284f1024f14db9499b146a1f3c42e2f
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\32\3284f1024f14db9499b146a1f3c42e2f
+    projectPath: Library\metadata\32\3284f1024f14db9499b146a1f3c42e2f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\32\3284f1024f14db9499b146a1f3c42e2f.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\32\3284f1024f14db9499b146a1f3c42e2f.info
+    projectPath: Library\metadata\32\3284f1024f14db9499b146a1f3c42e2f.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\37\37895b4cad22c7644ac0f5cd124c27d9
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\37\37895b4cad22c7644ac0f5cd124c27d9
+    projectPath: Library\metadata\37\37895b4cad22c7644ac0f5cd124c27d9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\37\37895b4cad22c7644ac0f5cd124c27d9.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\37\37895b4cad22c7644ac0f5cd124c27d9.info
+    projectPath: Library\metadata\37\37895b4cad22c7644ac0f5cd124c27d9.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\39\395bc1bc08f3a5e44b1f98f4992803d4
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\39\395bc1bc08f3a5e44b1f98f4992803d4
+    projectPath: Library\metadata\39\395bc1bc08f3a5e44b1f98f4992803d4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\39\395bc1bc08f3a5e44b1f98f4992803d4.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\39\395bc1bc08f3a5e44b1f98f4992803d4.info
+    projectPath: Library\metadata\39\395bc1bc08f3a5e44b1f98f4992803d4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\3a\3af059b19faf07140a13ca449e6a3ce4
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\3a\3af059b19faf07140a13ca449e6a3ce4
+    projectPath: Library\metadata\3a\3af059b19faf07140a13ca449e6a3ce4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\3a\3af059b19faf07140a13ca449e6a3ce4.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\3a\3af059b19faf07140a13ca449e6a3ce4.info
+    projectPath: Library\metadata\3a\3af059b19faf07140a13ca449e6a3ce4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\3d\3de438e70702ebf428d028c739828f43
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\3d\3de438e70702ebf428d028c739828f43
+    projectPath: Library\metadata\3d\3de438e70702ebf428d028c739828f43
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\3d\3de438e70702ebf428d028c739828f43.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\3d\3de438e70702ebf428d028c739828f43.info
+    projectPath: Library\metadata\3d\3de438e70702ebf428d028c739828f43.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\44\444827d04e7486c47a96a7aa8d9796d2
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\44\444827d04e7486c47a96a7aa8d9796d2
+    projectPath: Library\metadata\44\444827d04e7486c47a96a7aa8d9796d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\44\444827d04e7486c47a96a7aa8d9796d2.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\44\444827d04e7486c47a96a7aa8d9796d2.info
+    projectPath: Library\metadata\44\444827d04e7486c47a96a7aa8d9796d2.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\46\466da1a3966b8d04fa7b380a6a520a6b
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\46\466da1a3966b8d04fa7b380a6a520a6b
+    projectPath: Library\metadata\46\466da1a3966b8d04fa7b380a6a520a6b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\46\466da1a3966b8d04fa7b380a6a520a6b.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\46\466da1a3966b8d04fa7b380a6a520a6b.info
+    projectPath: Library\metadata\46\466da1a3966b8d04fa7b380a6a520a6b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\50\50b9bde3837fc9b4796505ed4336e750
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\50\50b9bde3837fc9b4796505ed4336e750
+    projectPath: Library\metadata\50\50b9bde3837fc9b4796505ed4336e750
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\50\50b9bde3837fc9b4796505ed4336e750.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\50\50b9bde3837fc9b4796505ed4336e750.info
+    projectPath: Library\metadata\50\50b9bde3837fc9b4796505ed4336e750.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5a\5ada3917f98745f40b87f4d85808a977
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\5a\5ada3917f98745f40b87f4d85808a977
+    projectPath: Library\metadata\5a\5ada3917f98745f40b87f4d85808a977
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5a\5ada3917f98745f40b87f4d85808a977.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\5a\5ada3917f98745f40b87f4d85808a977.info
+    projectPath: Library\metadata\5a\5ada3917f98745f40b87f4d85808a977.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5b\5bb587752dfd1ea4a92b48c4a82d4416
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\5b\5bb587752dfd1ea4a92b48c4a82d4416
+    projectPath: Library\metadata\5b\5bb587752dfd1ea4a92b48c4a82d4416
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5b\5bb587752dfd1ea4a92b48c4a82d4416.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\5b\5bb587752dfd1ea4a92b48c4a82d4416.info
+    projectPath: Library\metadata\5b\5bb587752dfd1ea4a92b48c4a82d4416.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5e\5edee861392362a4c976b765eba3a6d2
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\5e\5edee861392362a4c976b765eba3a6d2
+    projectPath: Library\metadata\5e\5edee861392362a4c976b765eba3a6d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5e\5edee861392362a4c976b765eba3a6d2.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\5e\5edee861392362a4c976b765eba3a6d2.info
+    projectPath: Library\metadata\5e\5edee861392362a4c976b765eba3a6d2.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5f\5fd4371e812f9f747bfe3bd675be962a
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\5f\5fd4371e812f9f747bfe3bd675be962a
+    projectPath: Library\metadata\5f\5fd4371e812f9f747bfe3bd675be962a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\5f\5fd4371e812f9f747bfe3bd675be962a.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\5f\5fd4371e812f9f747bfe3bd675be962a.info
+    projectPath: Library\metadata\5f\5fd4371e812f9f747bfe3bd675be962a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\66\66119e34221d41641a547cc05dad898e
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\66\66119e34221d41641a547cc05dad898e
+    projectPath: Library\metadata\66\66119e34221d41641a547cc05dad898e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\66\66119e34221d41641a547cc05dad898e.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\66\66119e34221d41641a547cc05dad898e.info
+    projectPath: Library\metadata\66\66119e34221d41641a547cc05dad898e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6d\6d00cee2512ba9f4d8daa2612b5deee8
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\6d\6d00cee2512ba9f4d8daa2612b5deee8
+    projectPath: Library\metadata\6d\6d00cee2512ba9f4d8daa2612b5deee8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6d\6d00cee2512ba9f4d8daa2612b5deee8.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\6d\6d00cee2512ba9f4d8daa2612b5deee8.info
+    projectPath: Library\metadata\6d\6d00cee2512ba9f4d8daa2612b5deee8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\77\778c647fc5750ea4699bd1bb5d0a92e4
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\77\778c647fc5750ea4699bd1bb5d0a92e4
+    projectPath: Library\metadata\77\778c647fc5750ea4699bd1bb5d0a92e4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\77\778c647fc5750ea4699bd1bb5d0a92e4.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\77\778c647fc5750ea4699bd1bb5d0a92e4.info
+    projectPath: Library\metadata\77\778c647fc5750ea4699bd1bb5d0a92e4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\81\81bad7e502852b446bc9f588c953e27e
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\81\81bad7e502852b446bc9f588c953e27e
+    projectPath: Library\metadata\81\81bad7e502852b446bc9f588c953e27e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\81\81bad7e502852b446bc9f588c953e27e.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\81\81bad7e502852b446bc9f588c953e27e.info
+    projectPath: Library\metadata\81\81bad7e502852b446bc9f588c953e27e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\8f\8f0ee8eb537699b4d91db3187bcf6bb5
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\8f\8f0ee8eb537699b4d91db3187bcf6bb5
+    projectPath: Library\metadata\8f\8f0ee8eb537699b4d91db3187bcf6bb5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\8f\8f0ee8eb537699b4d91db3187bcf6bb5.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\8f\8f0ee8eb537699b4d91db3187bcf6bb5.info
+    projectPath: Library\metadata\8f\8f0ee8eb537699b4d91db3187bcf6bb5.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\98\98152edfecdd03e48ad6cabfb6cd1f00
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\98\98152edfecdd03e48ad6cabfb6cd1f00
+    projectPath: Library\metadata\98\98152edfecdd03e48ad6cabfb6cd1f00
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\98\98152edfecdd03e48ad6cabfb6cd1f00.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\98\98152edfecdd03e48ad6cabfb6cd1f00.info
+    projectPath: Library\metadata\98\98152edfecdd03e48ad6cabfb6cd1f00.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\9d\9d122ead716fac64cbeb6d25223710d8
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\9d\9d122ead716fac64cbeb6d25223710d8
+    projectPath: Library\metadata\9d\9d122ead716fac64cbeb6d25223710d8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\9d\9d122ead716fac64cbeb6d25223710d8.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\9d\9d122ead716fac64cbeb6d25223710d8.info
+    projectPath: Library\metadata\9d\9d122ead716fac64cbeb6d25223710d8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\9d\9de83acbdc00f8e4b86f0c6463e4b605
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\9d\9de83acbdc00f8e4b86f0c6463e4b605
+    projectPath: Library\metadata\9d\9de83acbdc00f8e4b86f0c6463e4b605
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\9d\9de83acbdc00f8e4b86f0c6463e4b605.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\9d\9de83acbdc00f8e4b86f0c6463e4b605.info
+    projectPath: Library\metadata\9d\9de83acbdc00f8e4b86f0c6463e4b605.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\a5\a59b9202cdb93394781b8e79c967d8a3
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\a5\a59b9202cdb93394781b8e79c967d8a3
+    projectPath: Library\metadata\a5\a59b9202cdb93394781b8e79c967d8a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\a5\a59b9202cdb93394781b8e79c967d8a3.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\a5\a59b9202cdb93394781b8e79c967d8a3.info
+    projectPath: Library\metadata\a5\a59b9202cdb93394781b8e79c967d8a3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\a8\a8c84d7a672b69c4596fabb29d81f92f
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\a8\a8c84d7a672b69c4596fabb29d81f92f
+    projectPath: Library\metadata\a8\a8c84d7a672b69c4596fabb29d81f92f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\a8\a8c84d7a672b69c4596fabb29d81f92f.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\a8\a8c84d7a672b69c4596fabb29d81f92f.info
+    projectPath: Library\metadata\a8\a8c84d7a672b69c4596fabb29d81f92f.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ac\acdb34e386b6e544ba4382086e131301
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\ac\acdb34e386b6e544ba4382086e131301
+    projectPath: Library\metadata\ac\acdb34e386b6e544ba4382086e131301
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ac\acdb34e386b6e544ba4382086e131301.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\ac\acdb34e386b6e544ba4382086e131301.info
+    projectPath: Library\metadata\ac\acdb34e386b6e544ba4382086e131301.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ae\ae4e490649412b747af3c980735b57c3
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\ae\ae4e490649412b747af3c980735b57c3
+    projectPath: Library\metadata\ae\ae4e490649412b747af3c980735b57c3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ae\ae4e490649412b747af3c980735b57c3.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\ae\ae4e490649412b747af3c980735b57c3.info
+    projectPath: Library\metadata\ae\ae4e490649412b747af3c980735b57c3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b0\b08ecf9c9d4626c439320e9d82b8e52f
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b0\b08ecf9c9d4626c439320e9d82b8e52f
+    projectPath: Library\metadata\b0\b08ecf9c9d4626c439320e9d82b8e52f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b0\b08ecf9c9d4626c439320e9d82b8e52f.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b0\b08ecf9c9d4626c439320e9d82b8e52f.info
+    projectPath: Library\metadata\b0\b08ecf9c9d4626c439320e9d82b8e52f.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b1\b1377e955237a724f9ada08f3f5e5c66
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b1\b1377e955237a724f9ada08f3f5e5c66
+    projectPath: Library\metadata\b1\b1377e955237a724f9ada08f3f5e5c66
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b1\b1377e955237a724f9ada08f3f5e5c66.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b1\b1377e955237a724f9ada08f3f5e5c66.info
+    projectPath: Library\metadata\b1\b1377e955237a724f9ada08f3f5e5c66.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b2\b2ebb103d34bb5749b52f775b8fef687
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b2\b2ebb103d34bb5749b52f775b8fef687
+    projectPath: Library\metadata\b2\b2ebb103d34bb5749b52f775b8fef687
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b2\b2ebb103d34bb5749b52f775b8fef687.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b2\b2ebb103d34bb5749b52f775b8fef687.info
+    projectPath: Library\metadata\b2\b2ebb103d34bb5749b52f775b8fef687.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b5\b527e05d6319b694fb6ba2aa2e4f4705
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b5\b527e05d6319b694fb6ba2aa2e4f4705
+    projectPath: Library\metadata\b5\b527e05d6319b694fb6ba2aa2e4f4705
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b5\b527e05d6319b694fb6ba2aa2e4f4705.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b5\b527e05d6319b694fb6ba2aa2e4f4705.info
+    projectPath: Library\metadata\b5\b527e05d6319b694fb6ba2aa2e4f4705.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b6\b6274ed127408bb47b569930f77207e0
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b6\b6274ed127408bb47b569930f77207e0
+    projectPath: Library\metadata\b6\b6274ed127408bb47b569930f77207e0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b6\b6274ed127408bb47b569930f77207e0.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b6\b6274ed127408bb47b569930f77207e0.info
+    projectPath: Library\metadata\b6\b6274ed127408bb47b569930f77207e0.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b8\b84567b538c94c64196f60e963300ff7
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b8\b84567b538c94c64196f60e963300ff7
+    projectPath: Library\metadata\b8\b84567b538c94c64196f60e963300ff7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b8\b84567b538c94c64196f60e963300ff7.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\b8\b84567b538c94c64196f60e963300ff7.info
+    projectPath: Library\metadata\b8\b84567b538c94c64196f60e963300ff7.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\c9\c93855a59935d814ea0ea724f8bc6133
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\c9\c93855a59935d814ea0ea724f8bc6133
+    projectPath: Library\metadata\c9\c93855a59935d814ea0ea724f8bc6133
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\c9\c93855a59935d814ea0ea724f8bc6133.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\c9\c93855a59935d814ea0ea724f8bc6133.info
+    projectPath: Library\metadata\c9\c93855a59935d814ea0ea724f8bc6133.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d1\d16a36d9d7f1b174492225c23c8e521e
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\d1\d16a36d9d7f1b174492225c23c8e521e
+    projectPath: Library\metadata\d1\d16a36d9d7f1b174492225c23c8e521e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d1\d16a36d9d7f1b174492225c23c8e521e.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\d1\d16a36d9d7f1b174492225c23c8e521e.info
+    projectPath: Library\metadata\d1\d16a36d9d7f1b174492225c23c8e521e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d5\d5b900693a0cd5b428a82bbfe330c615
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\d5\d5b900693a0cd5b428a82bbfe330c615
+    projectPath: Library\metadata\d5\d5b900693a0cd5b428a82bbfe330c615
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d5\d5b900693a0cd5b428a82bbfe330c615.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\d5\d5b900693a0cd5b428a82bbfe330c615.info
+    projectPath: Library\metadata\d5\d5b900693a0cd5b428a82bbfe330c615.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d9\d9b4f1437b749dc43bb121e0b4726e21
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\d9\d9b4f1437b749dc43bb121e0b4726e21
+    projectPath: Library\metadata\d9\d9b4f1437b749dc43bb121e0b4726e21
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d9\d9b4f1437b749dc43bb121e0b4726e21.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\d9\d9b4f1437b749dc43bb121e0b4726e21.info
+    projectPath: Library\metadata\d9\d9b4f1437b749dc43bb121e0b4726e21.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e6\e67343ccf202ffb4da2ee0c148871a4f
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\e6\e67343ccf202ffb4da2ee0c148871a4f
+    projectPath: Library\metadata\e6\e67343ccf202ffb4da2ee0c148871a4f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e6\e67343ccf202ffb4da2ee0c148871a4f.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\e6\e67343ccf202ffb4da2ee0c148871a4f.info
+    projectPath: Library\metadata\e6\e67343ccf202ffb4da2ee0c148871a4f.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ea\ea61b325ef01e1240b4369e46260e685
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\ea\ea61b325ef01e1240b4369e46260e685
+    projectPath: Library\metadata\ea\ea61b325ef01e1240b4369e46260e685
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ea\ea61b325ef01e1240b4369e46260e685.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\ea\ea61b325ef01e1240b4369e46260e685.info
+    projectPath: Library\metadata\ea\ea61b325ef01e1240b4369e46260e685.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\fa\fab7a72d5bfed564ab8361bfc3b7eeed
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\fa\fab7a72d5bfed564ab8361bfc3b7eeed
+    projectPath: Library\metadata\fa\fab7a72d5bfed564ab8361bfc3b7eeed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\fa\fab7a72d5bfed564ab8361bfc3b7eeed.info
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\metadata\fa\fab7a72d5bfed564ab8361bfc3b7eeed.info
+    projectPath: Library\metadata\fa\fab7a72d5bfed564ab8361bfc3b7eeed.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\0cc0b4e5456c13b1590e9536d7540ee7.bin
+    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\ShaderCache\0\0cc0b4e5456c13b1590e9536d7540ee7.bin
+    projectPath: Library\ShaderCache\0\0cc0b4e5456c13b1590e9536d7540ee7.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -205,204 +1123,6 @@ MonoBehaviour:
   - path: Temp\UnityLockfile
     fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-07778e96908ce58468e20936bd7d139a
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-07778e96908ce58468e20936bd7d139a
-    projectPath: Temp\UnityTempFile-07778e96908ce58468e20936bd7d139a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-12ec39cc29379494c9234d41de94fb5d
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-12ec39cc29379494c9234d41de94fb5d
-    projectPath: Temp\UnityTempFile-12ec39cc29379494c9234d41de94fb5d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-1554b6234b2eb424380331a3adbcb8a3
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-1554b6234b2eb424380331a3adbcb8a3
-    projectPath: Temp\UnityTempFile-1554b6234b2eb424380331a3adbcb8a3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-1fc450664b7f1f646b135ec0721a3b66
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-1fc450664b7f1f646b135ec0721a3b66
-    projectPath: Temp\UnityTempFile-1fc450664b7f1f646b135ec0721a3b66
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-210e0abc375f50a47b23f5131df0b1d4
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-210e0abc375f50a47b23f5131df0b1d4
-    projectPath: Temp\UnityTempFile-210e0abc375f50a47b23f5131df0b1d4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-27b30059c14654b43a1f9a4f5a0bf881
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-27b30059c14654b43a1f9a4f5a0bf881
-    projectPath: Temp\UnityTempFile-27b30059c14654b43a1f9a4f5a0bf881
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-2dc8f168e74aa8e46840ab9bcd03a4a9
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-2dc8f168e74aa8e46840ab9bcd03a4a9
-    projectPath: Temp\UnityTempFile-2dc8f168e74aa8e46840ab9bcd03a4a9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-2f4d995c2fafdf94984c10137c91da00
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-2f4d995c2fafdf94984c10137c91da00
-    projectPath: Temp\UnityTempFile-2f4d995c2fafdf94984c10137c91da00
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-37cf683a3874576429535650e2ba02a1
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-37cf683a3874576429535650e2ba02a1
-    projectPath: Temp\UnityTempFile-37cf683a3874576429535650e2ba02a1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-42398d98f68987c46ab0d98728324a9b
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-42398d98f68987c46ab0d98728324a9b
-    projectPath: Temp\UnityTempFile-42398d98f68987c46ab0d98728324a9b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-4ce7bdfa57269ef42b2cb33819ec3207
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-4ce7bdfa57269ef42b2cb33819ec3207
-    projectPath: Temp\UnityTempFile-4ce7bdfa57269ef42b2cb33819ec3207
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-5c34c7feb2460804ab79883c79ac92e5
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-5c34c7feb2460804ab79883c79ac92e5
-    projectPath: Temp\UnityTempFile-5c34c7feb2460804ab79883c79ac92e5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-667acb5fc2173474ea90b7dc395aa79f
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-667acb5fc2173474ea90b7dc395aa79f
-    projectPath: Temp\UnityTempFile-667acb5fc2173474ea90b7dc395aa79f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6d1f43b4c1bf7054ea7d5bfd9e53a0f1
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-6d1f43b4c1bf7054ea7d5bfd9e53a0f1
-    projectPath: Temp\UnityTempFile-6d1f43b4c1bf7054ea7d5bfd9e53a0f1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-730581ede0cb4ac4ba7ce6bfc1cb066a
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-730581ede0cb4ac4ba7ce6bfc1cb066a
-    projectPath: Temp\UnityTempFile-730581ede0cb4ac4ba7ce6bfc1cb066a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-850afdddfd7f33249b9fa97a8d24851b
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-850afdddfd7f33249b9fa97a8d24851b
-    projectPath: Temp\UnityTempFile-850afdddfd7f33249b9fa97a8d24851b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-86a602fa5dc28ec47a337d1f78555e59
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-86a602fa5dc28ec47a337d1f78555e59
-    projectPath: Temp\UnityTempFile-86a602fa5dc28ec47a337d1f78555e59
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-88758280bbc7d094f9969cccb49eb891
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-88758280bbc7d094f9969cccb49eb891
-    projectPath: Temp\UnityTempFile-88758280bbc7d094f9969cccb49eb891
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-8a01a33a0b8fa1e4a8815ba7f7b14be6
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-8a01a33a0b8fa1e4a8815ba7f7b14be6
-    projectPath: Temp\UnityTempFile-8a01a33a0b8fa1e4a8815ba7f7b14be6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-94fbbb961067b6343bbac8c5e2214ec1
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-94fbbb961067b6343bbac8c5e2214ec1
-    projectPath: Temp\UnityTempFile-94fbbb961067b6343bbac8c5e2214ec1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-95e23a76958f33347a4db6864230b8e7
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-95e23a76958f33347a4db6864230b8e7
-    projectPath: Temp\UnityTempFile-95e23a76958f33347a4db6864230b8e7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a22511efed209aa4ba27b854b7adc012
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a22511efed209aa4ba27b854b7adc012
-    projectPath: Temp\UnityTempFile-a22511efed209aa4ba27b854b7adc012
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a828d14383e75714a8e0e091c9f7129e
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-a828d14383e75714a8e0e091c9f7129e
-    projectPath: Temp\UnityTempFile-a828d14383e75714a8e0e091c9f7129e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-aed388ecd8995af4eba9fd192995a7f3
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-aed388ecd8995af4eba9fd192995a7f3
-    projectPath: Temp\UnityTempFile-aed388ecd8995af4eba9fd192995a7f3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b056e64bf57165f4884c6031fce6a854
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-b056e64bf57165f4884c6031fce6a854
-    projectPath: Temp\UnityTempFile-b056e64bf57165f4884c6031fce6a854
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c9d1589a2a2e3f84ca9c9b6cbf9a17e2
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-c9d1589a2a2e3f84ca9c9b6cbf9a17e2
-    projectPath: Temp\UnityTempFile-c9d1589a2a2e3f84ca9c9b6cbf9a17e2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-db44309604ce32541bb142acc913fee2
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-db44309604ce32541bb142acc913fee2
-    projectPath: Temp\UnityTempFile-db44309604ce32541bb142acc913fee2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-de7196e1ab5e31f48b4573d57c066896
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-de7196e1ab5e31f48b4573d57c066896
-    projectPath: Temp\UnityTempFile-de7196e1ab5e31f48b4573d57c066896
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e306b035c6d4ddf46837fe29609f929e
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-e306b035c6d4ddf46837fe29609f929e
-    projectPath: Temp\UnityTempFile-e306b035c6d4ddf46837fe29609f929e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ece418024979bd348bd2a2237d08ef2e
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-ece418024979bd348bd2a2237d08ef2e
-    projectPath: Temp\UnityTempFile-ece418024979bd348bd2a2237d08ef2e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f8b97ae544993c74da4096269e0c8d2a
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-f8b97ae544993c74da4096269e0c8d2a
-    projectPath: Temp\UnityTempFile-f8b97ae544993c74da4096269e0c8d2a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fa3923f336edd9a4aaacc636049cc3da
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-fa3923f336edd9a4aaacc636049cc3da
-    projectPath: Temp\UnityTempFile-fa3923f336edd9a4aaacc636049cc3da
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fcad0d367ed488d4392287e35d3ee620
-    fullPath: C:\Users\Michal\Documents\GitHub\DungeonCrawlerFinal\Temp\UnityTempFile-fcad0d367ed488d4392287e35d3ee620
-    projectPath: Temp\UnityTempFile-fcad0d367ed488d4392287e35d3ee620
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
