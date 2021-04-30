@@ -11,6 +11,7 @@ public class BloodCounterClass : MonoBehaviour
 
 
     static public int bloodCounter=0;
+    static public int trapDelay = 0;
     static public Boolean bloodCollision = false;
     void Start()
     {

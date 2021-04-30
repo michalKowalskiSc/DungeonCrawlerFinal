@@ -55,13 +55,15 @@
                 //o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 //UNITY_TRANSFER_FOG(o,o.vertex);
                 //return o;
-
-
+                v.vertex.x = v.vertex.x * ((sin(_Time[1]) + 3) * 0.4);
+                v.vertex.y = v.vertex.y * ((sin(_Time[1]) + 3) * 0.4);
+                v.vertex.z = v.vertex.z + 0.2;
 
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
+                //o.pos = UnityObjectToClipPos(v.vertex);
 
-                float3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
+                //float3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
 
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
 
@@ -71,12 +73,18 @@
 
                 //o.vertex.x += sin(worldPos.y+_Time.w);
                 //o.vertex.x += sin(worldPos.z + _Time.w);
-                o.vertex.x += sin(worldPos.y + _Time.w) + cos(worldPos.z + _Time.w);
+                //o.vertex.x += sin(worldPos.y + _Time.w) + cos(worldPos.z + _Time.w);
                 //o.vertex.z += cos(worldPos.z + _Time.w);
                 //o.vertex.x = o.vertex.x + sin(_Time[1] / 10);
                 //o.vertex.x += ;
                 //o = v.vertex + 2.0 * cross(quaternion.xyz, cross(quaternion.xyz, ray) + quaternion.w * v.vertex);
+                //o.vertex.z += 2;
+                //o.vertex.x = o.vertex.x * ((sin(_Time[1])+3)*0.25);
+                //o.vertex.y = o.vertex.y * ((sin(_Time[1]) + 3) * 0.25);
 
+
+                //o.vertex.x = worldPos.z;
+                //o.vertex.x = worldPos.x+((sin(_Time[1]) + 3) * 0.25);
 
                 //o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 //UNITY_TRANSFER_FOG(o, o.vertex);
@@ -97,7 +105,7 @@
                 //col = tex2D(_MainTex, i.uv);
                 col.a = 0;
                
-                if (col.r < 0.1)
+                if (col.r < 0.1 && col.g<0.1 && col.b<0.1)
                     discard;
 
                 return col;
