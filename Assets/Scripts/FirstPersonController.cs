@@ -17,6 +17,7 @@ public class FirstPersonController : MonoBehaviour
     //[SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
 
     private Camera m_Camera;
+    private Canvas canvas;
     //private float m_YRotation; 
     //private Vector3 m_Input; 
     //private Vector3 m_MoveDir = Vector3.zero; 
@@ -46,6 +47,7 @@ public class FirstPersonController : MonoBehaviour
         m_AudioSource.Play();
         Cursor.visible = true;
         Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
+        this.canvas = FindObjectOfType<Canvas>();
         //this.p_Camera = GameObject.Find("FirstPersonCharacter").GetComponent<Camera>();
 
         //Distance is slightly larger than the
@@ -222,9 +224,10 @@ public class FirstPersonController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Triggered by " + other.tag);
         if (other.tag == "Trap") {
-            GameObject btnDisarm = GameObject.Find("ButtonDisarmTrap");
-            btnDisarm.GetComponent<UnityEngine.UI.Image>().overrideSprite = this.sprDisarmGreen;
+            canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 1);
+            canvas.GetComponent<CanvasManager>().ToggleNotification();
         }
     }
 
@@ -232,8 +235,8 @@ public class FirstPersonController : MonoBehaviour
     public void OnTriggerExit(Collider other) {
         if (other.tag == "Trap")
         {
-            GameObject btnDisarm = GameObject.Find("ButtonDisarmTrap");
-            btnDisarm.GetComponent<UnityEngine.UI.Image>().overrideSprite = this.sprDisarmDefault;
+            canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 0);
+            canvas.GetComponent<CanvasManager>().ToggleNotification();
         }
     }
     private void OnCollisionEnter(Collision collision)
