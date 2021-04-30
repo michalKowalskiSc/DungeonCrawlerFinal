@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Fire
   - Trap
+  - SlotHead
+  - SlotArm
+  - SlotPalm
+  - SlotQuick
+  - SlotInv
+  - SlotChest
   layers:
   - Default
   - TransparentFX

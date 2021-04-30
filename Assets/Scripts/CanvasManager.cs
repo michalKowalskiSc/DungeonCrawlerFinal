@@ -53,9 +53,9 @@ public class CanvasManager : MonoBehaviour
         }
     }
 
-    public void ToggleNotification()
+    public void ToggleNotification(bool mode)
     {
-        if (this.isNotifActive == true)
+        if (mode == false)
         {
             this.notificationObj.SetActive(false);
             this.isNotifActive = false;
