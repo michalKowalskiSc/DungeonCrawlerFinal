@@ -735,6 +735,7 @@
     <None Include="Assets\Pliki_Przemek\EndLevelShader.shader" />
     <None Include="Assets\Pliki_Przemek\PortalShader.shader" />
     <None Include="Assets\Pliki_Przemek\PortalShader_2.shader" />
+    <None Include="Assets\Pliki_Przemek\Shiny.shader" />
     <None Include="Assets\Pliki_Przemek\SimpleDeformation.shader" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\SpellBookPreface\ReadMe.txt" />

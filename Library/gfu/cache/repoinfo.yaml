@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-04-30T01:04:19.630+02:00
-  initializedAtString: 2021-04-30T01:04:19.630+02:00
+  lastUpdatedAtString: 2021-04-30T07:15:54.971+02:00
+  initializedAtString: 2021-04-30T07:15:54.971+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/michalKowalskiSc/DungeonCrawlerFinal.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: Przemek_6
-    tracking: origin/Przemek_6
+    name: MK_enemiesMove
+    tracking: origin/MK_enemiesMove
   currentConfigBranch:
-    name: Przemek_6
+    name: MK_enemiesMove
     remote:
       name: origin
       url: https://github.com/michalKowalskiSc/DungeonCrawlerFinal.git
-    trackingBranch: Przemek_6
+    trackingBranch: MK_enemiesMove
   currentConfigRemote:
     name: origin
     url: https://github.com/michalKowalskiSc/DungeonCrawlerFinal.git
