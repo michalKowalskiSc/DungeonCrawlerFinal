@@ -38,7 +38,7 @@ public class BloodScript : MonoBehaviour
                 //bloodTri = true;
                 //BloodCounterClass.bloodCounter = 1000;
                 BloodCounterClass.bloodCollision = true;
-                BloodCounterClass.trapDelay = 40;
+                BloodCounterClass.trapDelay = 200;
                 //Debug.Log("trigger");
                 //Debug.Log(BloodCounterClass.bloodCounter);
             }
@@ -100,7 +100,7 @@ public class BloodScript : MonoBehaviour
             BloodCounterClass.trapDelay--;
         }
 
-        if (((BloodCounterClass.bloodCounter > 0) || (BloodCounterClass.bloodCollision== true)) && (BloodCounterClass.trapDelay<1))
+        if (((BloodCounterClass.bloodCounter > 0) || (BloodCounterClass.bloodCollision== true)) && (BloodCounterClass.trapDelay<1) && (FireTrap.active == 1))
         {
             BloodCounterClass.bloodCounter--;
             Graphics.Blit(src, dest, mat);

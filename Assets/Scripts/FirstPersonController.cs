@@ -13,27 +13,27 @@ using Random = UnityEngine.Random;
 public class FirstPersonController : MonoBehaviour
 {
     [SerializeField] private float m_WalkSpeed; 
-    [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
-    [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
+    // [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
+    //[SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
 
     private Camera m_Camera;
-    private float m_YRotation; 
-    private Vector3 m_Input; 
-    private Vector3 m_MoveDir = Vector3.zero; 
+    private Canvas canvas;
+    //private float m_YRotation; 
+    //private Vector3 m_Input; 
+    //private Vector3 m_MoveDir = Vector3.zero; 
     private CharacterController m_CharacterController;
-    private CollisionFlags m_CollisionFlags;
-    private Vector3 m_OriginalCameraPosition;
-    private int m_StepSoundLimit;
-    private int m_NextStepSound;
-    Camera p_Camera;
+    //private CollisionFlags m_CollisionFlags;
+    //private Vector3 m_OriginalCameraPosition;
+    //private int m_NextStepSound;
+    //Camera p_Camera;
     private AudioSource m_AudioSource; 
     public Texture2D cursorArrow;
     private Boolean isMoving = false;
     private Vector3 targetPosition;
     private int dir;
-    private bool playsteps;
-    float distance;
-    int platLayer;
+    //private bool playsteps;
+    //float distance;
+    //int platLayer;
     public Sprite sprDisarmDefault;
     public Sprite sprDisarmGreen;
 
@@ -42,20 +42,20 @@ public class FirstPersonController : MonoBehaviour
     {
         m_CharacterController = GetComponent<CharacterController>();
         m_Camera = Camera.main;
-        m_StepSoundLimit = 5;
-        m_NextStepSound = 1;
+        //m_NextStepSound = 1;
         m_AudioSource = GetComponent<AudioSource>();
         m_AudioSource.Play();
         Cursor.visible = true;
         Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
-        this.p_Camera = GameObject.Find("FirstPersonCharacter").GetComponent<Camera>();
+        this.canvas = FindObjectOfType<Canvas>();
+        //this.p_Camera = GameObject.Find("FirstPersonCharacter").GetComponent<Camera>();
 
         //Distance is slightly larger than the
-        distance = m_CharacterController.radius + 0.2f;
+        //distance = m_CharacterController.radius + 0.2f;
 
         //First add a Layer name to all platforms (I used MovingPlatform)
         //Now this script won't run on regular objects, only platforms.
-        platLayer = LayerMask.NameToLayer("MovingPlatform");
+        //platLayer = LayerMask.NameToLayer("MovingPlatform");
     }
 
 
@@ -70,8 +70,6 @@ public class FirstPersonController : MonoBehaviour
     {
         if (this.isMoving)// && this.target != null)
         {
-            //transform.position = Vector3.MoveTowards(transform.position, target.position, step);
-
             if (this.dir == 0)
             {
                 if (Physics.SphereCast(transform.position, 0.3f, transform.forward, out _, 0.5f))
@@ -129,27 +127,6 @@ public class FirstPersonController : MonoBehaviour
                 this.isMoving = false;
             }
         }
-
-        //float speed;
-        //GetInput(out speed);
-        // always move along the camera forward as it is the direction that it being aimed at
-        //Vector3 desiredMove = transform.forward*m_Input.y + transform.right*m_Input.x;
-
-        // get a normal for the surface that is being touched to move along it
-        //RaycastHit hitInfo;
-        //Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
-        //                     m_CharacterController.height/2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
-        //desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
-
-        //m_MoveDir.x = desiredMove.x*speed;
-        //m_MoveDir.z = desiredMove.z*speed;
-
-        //m_CollisionFlags = m_CharacterController.Move(m_MoveDir*Time.fixedDeltaTime);
-
-        //ProgressStepCycle(speed);
-        //UpdateCameraPosition(speed);
-
-        // m_MouseLook.UpdateCursorLock();
     }
 
         private void playFootstepSounds()    {
@@ -174,49 +151,17 @@ public class FirstPersonController : MonoBehaviour
             m_Camera.transform.Rotate(10, 0, 0);
         }
     }
-    /*private void UpdateCameraPosition(float speed)
-    {
-        Vector3 newCameraPosition;
-            if (m_CharacterController.velocity.magnitude > 0 && m_CharacterController.isGrounded)
-        {
-            newCameraPosition = m_Camera.transform.localPosition;
-        }
-        else
-        {
-            newCameraPosition = m_Camera.transform.localPosition;
-        }
-        m_Camera.transform.localPosition = newCameraPosition;
-    }
-    */
 
     /*    private void GetInput(out float speed)
-        {
-           // speed = m_WalkSpeed;
-        }*/
+    {
+        // speed = m_WalkSpeed;
+    }*/
 
 
     private void RotateView() 
     {
         // m_MouseLook.LookRotation (transform, m_Camera.transform);
     } 
-
-
-/*    private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        Rigidbody body = hit.collider.attachedRigidbody;
-        //dont move the rigidbody if the character is on top of it
-        if (m_CollisionFlags == CollisionFlags.Below) 
-        {
-            return; 
-        }
-
-        if (body == null || body.isKinematic)
-        {
-            return;
-        }
-        body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
-    }
-*/
 
     public void moveForward(float speed) {
         if (this.isMoving == false) {            
@@ -255,23 +200,8 @@ public class FirstPersonController : MonoBehaviour
             this.isMoving = true;
             this.targetPosition = new Vector3(xTarget, yTarget, zTarget);
         }
-        
-        
-        // get a normal for the surface that is being touched to move along it
-        //RaycastHit hitInfo;
-        //Physics.SphereCast(transform.position, m_CharacterController.radius, Vector3.down, out hitInfo,
-        //                    m_CharacterController.height / 2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
-
-        //desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
-
-        //m_MoveDir.x = desiredMove.x * speed;
-        //m_MoveDir.z = desiredMove.z * speed;
-
-        //m_CollisionFlags = m_CharacterController.Move(m_MoveDir * Time.fixedDeltaTime);
-
-        //ProgressStepCycle(speed);
-        //UpdateCameraPosition(speed);
     }
+
     public void rotateBack(float speed) {
         if (!this.isMoving) {
             m_Camera.transform.Rotate(0, 180, 0);
@@ -283,7 +213,6 @@ public class FirstPersonController : MonoBehaviour
         if (!this.isMoving) {
             m_Camera.transform.Rotate(0, 270, 0);
         }
-
     }
 
     public void rotateRight(float speed)
@@ -295,9 +224,10 @@ public class FirstPersonController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Triggered by " + other.tag);
         if (other.tag == "Trap") {
-            GameObject btnDisarm = GameObject.Find("ButtonDisarmTrap");
-            btnDisarm.GetComponent<UnityEngine.UI.Image>().overrideSprite = this.sprDisarmGreen;
+            canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 1);
+            canvas.GetComponent<CanvasManager>().ToggleNotification();
         }
     }
 
@@ -305,8 +235,8 @@ public class FirstPersonController : MonoBehaviour
     public void OnTriggerExit(Collider other) {
         if (other.tag == "Trap")
         {
-            GameObject btnDisarm = GameObject.Find("ButtonDisarmTrap");
-            btnDisarm.GetComponent<UnityEngine.UI.Image>().overrideSprite = this.sprDisarmDefault;
+            canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 0);
+            canvas.GetComponent<CanvasManager>().ToggleNotification();
         }
     }
     private void OnCollisionEnter(Collision collision)

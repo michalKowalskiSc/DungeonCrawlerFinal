@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 	public GameObject player;
 
 	// Flags that control the state of the game
-	private float elapsedTime = 0;
+	//private float elapsedTime = 0;
 	private bool isRunning = false; 
 	private bool isFinished = false;
 	public Texture2D cursorArrow;
@@ -84,4 +84,5 @@ public class GameManager : MonoBehaviour
 			GUI.Box(new Rect(Screen.width / 2 - 65, 185, 130, 40), "Good Work! You finished the level!");
 		}
 	}
+
 }

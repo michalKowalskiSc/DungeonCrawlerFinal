@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: b527e05d6319b694fb6ba2aa2e4f4705
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Animation LayerTransform
+    100002: Body_mesh
+    100004: CATRigHub001
+    100006: CATRigHub001Bone001
+    100008: CATRigHub002
+    100010: CATRigHub003
+    100012: CATRigHub003Bone001
+    100014: CATRigLArm1
+    100016: CATRigLArm2
+    100018: CATRigLArmCollarbone
+    100020: CATRigLArmPalm
+    100022: CATRigLLeg1
+    100024: CATRigLLeg2
+    100026: CATRigLLegAnkle
+    100028: CATRigLLegPlatform
+    100030: CATRigRArm1
+    100032: CATRigRArm2
+    100034: CATRigRArmCollarbone
+    100036: CATRigRArmPalm
+    100038: CATRigRLeg1
+    100040: CATRigRLeg2
+    100042: CATRigRLegAnkle
+    100044: CATRigRLegPlatform
+    100046: CATRigSpine
+    100048: CATRigSpine1
+    100050: CATRigSpine2
+    100052: Character
+    100054: Character001
+    100056: Clutches_mesh
+    100058: Eyes_mesh
+    100060: Horns_mesh
+    100062: Lower_teeth_mesh
+    100064: //RootNode
+    100066: Thorns_mesh
+    100068: Upper_teeth_mesh
+    400000: Animation LayerTransform
+    400002: Body_mesh
+    400004: CATRigHub001
+    400006: CATRigHub001Bone001
+    400008: CATRigHub002
+    400010: CATRigHub003
+    400012: CATRigHub003Bone001
+    400014: CATRigLArm1
+    400016: CATRigLArm2
+    400018: CATRigLArmCollarbone
+    400020: CATRigLArmPalm
+    400022: CATRigLLeg1
+    400024: CATRigLLeg2
+    400026: CATRigLLegAnkle
+    400028: CATRigLLegPlatform
+    400030: CATRigRArm1
+    400032: CATRigRArm2
+    400034: CATRigRArmCollarbone
+    400036: CATRigRArmPalm
+    400038: CATRigRLeg1
+    400040: CATRigRLeg2
+    400042: CATRigRLegAnkle
+    400044: CATRigRLegPlatform
+    400046: CATRigSpine
+    400048: CATRigSpine1
+    400050: CATRigSpine2
+    400052: Character
+    400054: Character001
+    400056: Clutches_mesh
+    400058: Eyes_mesh
+    400060: Horns_mesh
+    400062: Lower_teeth_mesh
+    400064: //RootNode
+    400066: Thorns_mesh
+    400068: Upper_teeth_mesh
+    2300000: Eyes_mesh
+    2300002: Lower_teeth_mesh
+    2300004: Upper_teeth_mesh
+    3300000: Eyes_mesh
+    3300002: Lower_teeth_mesh
+    3300004: Upper_teeth_mesh
+    4300000: Lower_teeth_mesh
+    4300002: Eyes_mesh
+    4300004: Upper_teeth_mesh
+    4300006: Body_mesh
+    4300008: Thorns_mesh
+    4300010: Horns_mesh
+    4300012: Clutches_mesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Body_mesh
+    13700002: Clutches_mesh
+    13700004: Horns_mesh
+    13700006: Thorns_mesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
