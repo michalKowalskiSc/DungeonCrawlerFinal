@@ -12,6 +12,14 @@ TagManager:
   - SlotQuick
   - SlotInv
   - SlotChest
+  - LeftDoor
+  - LeftDoor1
+  - LeftDoor2
+  - door1
+  - door2
+  - door3
+  - door4
+  - FinishZone
   layers:
   - Default
   - TransparentFX

@@ -47,7 +47,62 @@ public class CanvasManager : MonoBehaviour
     {
         if (isBtnDisarmActive) {
             this.ToggleButton("ButtonDisarmTrap", 0);
-            FireTrap.active = 0;
+            if (Traps.trapId==1)
+            {
+                Traps.fireTrapActive = 0;
+                Traps.trapId = 0;
+                BloodCounterClass.bloodCollision = false;
+                GameObject trapComponent = GameObject.Find("Eff_Fire");
+                trapComponent.active = false;
+            }
+            if (Traps.trapId == 2)
+            {
+                Traps.needleTrapActive = 0;
+                Traps.trapId = 0;
+                BloodCounterClass.bloodCollision = false;
+                GameObject trapComponent = GameObject.Find("Needle");
+                trapComponent.active = false;
+            }
+            if (Traps.trapId == 3)
+            {
+                Traps.cutterTrapActive = 0;
+                Traps.trapId = 0;
+                BloodCounterClass.bloodCollision = false;
+                GameObject trapComponent = GameObject.Find("Cutter");
+                trapComponent.active = false;
+            }
+            if (DoorId.doorId==1)
+            {
+                GameObject door = GameObject.Find("Door 1");
+                door.transform.position = new Vector3(6.0f, 0.0f, 22.2f);
+                door.transform.Rotate(0.0f, 90.0f, 0.0f,Space.Self);
+                door.GetComponent<BoxCollider>().enabled = false;
+                DoorId.doorId = 0;
+            }
+            if (DoorId.doorId == 2)
+            {
+                GameObject door = GameObject.Find("Door 2");
+                door.transform.position = new Vector3(6.0f, 0.0f, 28.2f);
+                door.transform.Rotate(0.0f, 90.0f, 0.0f, Space.Self);
+                door.GetComponent<BoxCollider>().enabled = false;
+                DoorId.doorId = 0;
+            }
+            if (DoorId.doorId == 3)
+            {
+                GameObject door = GameObject.Find("Door 3");
+                door.transform.position = new Vector3(19.0f, 0.0f, 22.2f);
+                door.transform.Rotate(0.0f, -90.0f, 0.0f, Space.Self);
+                door.GetComponent<BoxCollider>().enabled = false;
+                DoorId.doorId = 0;
+            }
+            if (DoorId.doorId == 4)
+            {
+                GameObject door = GameObject.Find("Door 4");
+                door.transform.position = new Vector3(19.0f, 0.0f, 28.2f);
+                door.transform.Rotate(0.0f, -90.0f, 0.0f, Space.Self);
+                door.GetComponent<BoxCollider>().enabled = false;
+                DoorId.doorId = 0;
+            }
             this.notificationObj.SetActive(false);
             this.isNotifActive = false;
         }

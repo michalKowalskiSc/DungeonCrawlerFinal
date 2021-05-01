@@ -225,15 +225,69 @@ public class FirstPersonController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggered by " + other.tag);
-        if (other.tag == "Trap" && FireTrap.active != 0) {
+        //if (other.tag == "Trap" && FireTrap.active != 0) {
+        //    canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 1);
+        //    canvas.GetComponent<CanvasManager>().ToggleNotification(true);
+        //}
+        if (other.tag == "Trap")
+        {
+            if ((other.gameObject.name == "Pf_Trap_Fire") && (Traps.fireTrapActive == 1))
+            {
+                canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 1);
+                canvas.GetComponent<CanvasManager>().ToggleNotification(true);
+                Traps.trapId = 1;
+
+            }
+            if ((other.gameObject.name == "Pf_Trap_Needle") && (Traps.needleTrapActive == 1))
+            {
+                canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 1);
+                canvas.GetComponent<CanvasManager>().ToggleNotification(true);
+                Traps.trapId = 2;
+            }
+            if ((other.gameObject.name == "Pf_Trap_Cutter (1)") && (Traps.cutterTrapActive == 1))
+            {
+                canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 1);
+                canvas.GetComponent<CanvasManager>().ToggleNotification(true);
+                Traps.trapId = 3;
+            }
+        }
+        if (other.gameObject.tag == "door1")
+        {
             canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 1);
             canvas.GetComponent<CanvasManager>().ToggleNotification(true);
+            DoorId.doorId = 1;
+            //Debug.Log("door1");
         }
+        if (other.gameObject.tag == "door2")
+        {
+            canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 1);
+            canvas.GetComponent<CanvasManager>().ToggleNotification(true);
+            DoorId.doorId = 2;
+            //Debug.Log("door2");
+        }
+        if (other.gameObject.tag == "door3")
+        {
+            canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 1);
+            canvas.GetComponent<CanvasManager>().ToggleNotification(true);
+            DoorId.doorId = 3;
+            //Debug.Log("door3");
+        }
+        if (other.gameObject.tag == "door4")
+        {
+            canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 1);
+            canvas.GetComponent<CanvasManager>().ToggleNotification(true);
+            DoorId.doorId = 4;
+            //Debug.Log("door4");
+        }
+        
+
+        
     }
 
 
     public void OnTriggerExit(Collider other) {
-        if (other.tag == "Trap")
+        //if (other.tag == "Trap")
+        if ((other.tag == "Trap") || (other.tag == "door1") || (other.tag == "door2") || (other.tag == "door3") || (other.tag == "door4"))
         {
             canvas.GetComponent<CanvasManager>().ToggleButton("ButtonDisarmTrap", 0);
             canvas.GetComponent<CanvasManager>().ToggleNotification(false);
