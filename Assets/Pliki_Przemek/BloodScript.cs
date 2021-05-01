@@ -32,7 +32,7 @@ public class BloodScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Trap")
         {
-            if (((other.gameObject.name == "Pf_Trap_Fire") && (FireTrap.active == 1)) || ((other.gameObject.name == "Pf_Trap_Needle") && (NeedleTrap.active == 1)) || ((other.gameObject.name == "Pf_Trap_Cutter (1)") && (RotaryTrap.active == 1)))
+            if (((other.gameObject.name == "Pf_Trap_Fire") && (Traps.fireTrapActive == 1)) || ((other.gameObject.name == "Pf_Trap_Needle") && (Traps.needleTrapActive == 1)) || ((other.gameObject.name == "Pf_Trap_Cutter (1)") && (Traps.cutterTrapActive == 1)))
             {
                 //bloodCounter = 100;
                 //bloodTri = true;
@@ -50,7 +50,7 @@ public class BloodScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Trap")
         {
-            if (((other.gameObject.name == "Pf_Trap_Fire") && (FireTrap.active==1)) || ((other.gameObject.name == "Pf_Trap_Needle") && (NeedleTrap.active == 1)) || ((other.gameObject.name == "Pf_Trap_Cutter (1)") && (RotaryTrap.active == 1)))
+            if (((other.gameObject.name == "Pf_Trap_Fire") && (Traps.fireTrapActive==1)) || ((other.gameObject.name == "Pf_Trap_Needle") && (Traps.needleTrapActive == 1)) || ((other.gameObject.name == "Pf_Trap_Cutter (1)") && (Traps.cutterTrapActive == 1)))
             {
                 //bloodCounter = 100;
                 //bloodTri = true;
@@ -100,8 +100,9 @@ public class BloodScript : MonoBehaviour
             BloodCounterClass.trapDelay--;
         }
 
-        if (((BloodCounterClass.bloodCounter > 0) || (BloodCounterClass.bloodCollision== true)) && (BloodCounterClass.trapDelay<1) && (FireTrap.active == 1))
-        {
+        //if (((BloodCounterClass.bloodCounter > 0) || (BloodCounterClass.bloodCollision== true)) && (BloodCounterClass.trapDelay<1) && (FireTrap.active == 1))
+        if (((BloodCounterClass.bloodCounter > 0) || (BloodCounterClass.bloodCollision == true)) && (BloodCounterClass.trapDelay < 1))
+            {
             BloodCounterClass.bloodCounter--;
             Graphics.Blit(src, dest, mat);
         }

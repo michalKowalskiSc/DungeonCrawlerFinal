@@ -49,8 +49,8 @@ public class GameManager : MonoBehaviour
 	// Runs when the player enters the finish zone
 	public void FinishedGame()
 	{
-		//isRunning = false;
-		//isFinished = true;
+		isRunning = false;
+		isFinished = true;
 		//fpsController.enabled = false;
 	}
 
@@ -81,7 +81,7 @@ public class GameManager : MonoBehaviour
 		
 		if(isFinished)
 		{
-			GUI.Box(new Rect(Screen.width / 2 - 65, 185, 130, 40), "Good Work! You finished the level!");
+			//GUI.Box(new Rect(Screen.width / 2 - 65, 185, 130, 40), "Good Work! You finished the level!");
 		}
 	}
 
