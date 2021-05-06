@@ -5,7 +5,7 @@ using UnityEngine;
 public class DoorId : MonoBehaviour
 {
 
-    static public int doorId = 0;
+    static public int doorId = 0; //id drzwi
     // Start is called before the first frame update
     void Start()
     {

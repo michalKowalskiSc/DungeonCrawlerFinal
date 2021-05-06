@@ -2,19 +2,19 @@
 {
     Properties
     {
-        _MainTex ("Main Texture", 2D) = "white" {}
-        _BloodTex ("Blood Texture", 2D) = "white" {}
+        _MainTex ("Main Texture", 2D) = "white" {} //pierwsza tekstura, pozostawiona domyslna, kolor bialy
+        _BloodTex ("Blood Texture", 2D) = "white" {} //druga tekstura
     }
     SubShader
     {
         // No culling or depth
-        Cull Off ZWrite Off ZTest Always
+        Cull Off ZWrite Off ZTest Always //cull off - render all polygons, ZWrite Off - używać dla semitransparent
 
         Pass
         {
             CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
+            #pragma vertex vert //shader wierczhołków
+            #pragma fragment frag //shader frangemntów
 
             #include "UnityCG.cginc"
 
@@ -43,20 +43,9 @@
 
             fixed4 frag(v2f IN) : SV_Target
             {
-                //fixed4 col = tex2D(_MainTex, IN.uv + float2(0,sin(IN.vertex.x/50 + _Time[1])/10));
-                // just invert the colors
-                //col.rgb = 1 - col.rgb;
-                //col.r = 1;
-                //col.rgb = 1 - col.rgb;
-
-
-                float4 col = tex2D(_MainTex, IN.uv);
-                float4 secondCol = tex2D(_BloodTex, IN.uv);
-                //col.r = IN.uv;
-                col.r = lerp(col, 1 - secondCol, 0.5) + 0.2*(sin(5*_Time[1])+2);
-                //col.r = 0;
-                //col.g = col.g * 2;
-                //col.b = col.b * 2;
+                float4 col = tex2D(_MainTex, IN.uv); //pierwsza tekstura
+                float4 secondCol = tex2D(_BloodTex, IN.uv); //druga tekstura
+                col.r = lerp(col, 1 - secondCol, 0.5) + 0.2*(sin(5*_Time[1])+2); //nałożenie pierwszej tektury na drugą na kanale red + sinusoidalna intensywność składowej
                 return col;
             }
             ENDCG

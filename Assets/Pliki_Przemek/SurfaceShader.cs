@@ -5,9 +5,7 @@ using UnityEngine;
 public class SurfaceShader : MonoBehaviour
 {
 
-    public Material mat;
-
-    //public GameObject FireTrap;
+    public Material mat; //material z podpietym shaderem powierzchni
 
     // Start is called before the first frame update
     void Start()
@@ -18,10 +16,10 @@ public class SurfaceShader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Traps.fireTrapActive==0)
+        if (Traps.fireTrapActive==0) //jesli wylaczono pulapke
         {
             GameObject trap = GameObject.Find("Pf_Trap_Fire");
-            trap.GetComponent<MeshRenderer>().material = mat;
+            trap.GetComponent<MeshRenderer>().material = mat; //to naloz shader powierzchni
         }
         if (Traps.needleTrapActive == 0)
         {

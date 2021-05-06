@@ -2,11 +2,11 @@
 {
     Properties
     {
-        _Color ("Color", Color) = (1,1,1,1)
-        _MainTex ("Albedo (RGB)", 2D) = "gray" {}
+        _Color ("Color", Color) = (1,1,1,1) //kolor
+        _MainTex ("Albedo (RGB)", 2D) = "gray" {} //glowna tekstura, odbijanie
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
         _Metallic ("Metallic", Range(0,1)) = 0.0
-        _Detail("Detail", 2D) = "gray" {}
+        _Detail("Detail", 2D) = "gray" {} //podpieta tekstura z paskami
     }
     SubShader
     {
@@ -58,14 +58,13 @@
             //o.Metallic = _Metallic;
             //o.Smoothness = _Glossiness;
             //_Detail.ti
+            
             o.Albedo = tex2D(_MainTex, IN.uv_MainTex).rgb;
-            float2 screenUV = IN.screenPos.xy / IN.screenPos.w;
-            screenUV *= float2(4, 4);
+            float2 screenUV = IN.screenPos.xy / IN.screenPos.w; //zmapuj teksture
+            screenUV *= float2(4, 4); //wspolczynniki zmapowania
             o.Albedo *= tex2D(_Detail, screenUV).rgb * 2;
-
-
         }
         ENDCG
     }
-    FallBack "Diffuse"
+    FallBack "Diffuse" //jesli karta nie obsluzy
 }

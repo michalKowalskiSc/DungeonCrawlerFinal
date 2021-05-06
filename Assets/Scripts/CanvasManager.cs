@@ -90,7 +90,7 @@ public class CanvasManager : MonoBehaviour
             if (DoorId.doorId == 3)
             {
                 GameObject door = GameObject.Find("Door 3");
-                door.transform.position = new Vector3(19.0f, 0.0f, 22.2f);
+                door.transform.position = new Vector3(18.0f, 0.0f, 22.2f);
                 door.transform.Rotate(0.0f, -90.0f, 0.0f, Space.Self);
                 door.GetComponent<BoxCollider>().enabled = false;
                 DoorId.doorId = 0;
@@ -98,7 +98,7 @@ public class CanvasManager : MonoBehaviour
             if (DoorId.doorId == 4)
             {
                 GameObject door = GameObject.Find("Door 4");
-                door.transform.position = new Vector3(19.0f, 0.0f, 28.2f);
+                door.transform.position = new Vector3(18.0f, 0.0f, 28.2f);
                 door.transform.Rotate(0.0f, -90.0f, 0.0f, Space.Self);
                 door.GetComponent<BoxCollider>().enabled = false;
                 DoorId.doorId = 0;
