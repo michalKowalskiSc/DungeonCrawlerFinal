@@ -2,14 +2,13 @@
 {
     Properties
     {
-        _MainTex ("Texture", 2D) = "white" {}
-        _SecondaryTex("Texture", 2D) = "white" {}
-        //_GoldColor("Gold", Gold) = (1, 1, 0, 1)
+        _MainTex ("Texture", 2D) = "white" {} //pierwsza tekstura - pozostawiona domyslna, white
+        _SecondaryTex("Texture", 2D) = "white" {} //druga tektura, nalozony kolor zloty
         _Color("Color", Color) = (1, 1, 1, 1)
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
+        Tags { "RenderType"="Opaque" } //nieprzezroczysty
         LOD 100
 
         Pass
@@ -17,7 +16,6 @@
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            // make fog work
             #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
@@ -35,12 +33,12 @@
                 float4 vertex : SV_POSITION;
             };
 
-            float random(float2 uv)
+            float random(float2 uv) //zwraca zmienna pseudolosowa uzalezniona od czasu
             {
                 return frac(sin(dot(uv, float2(12.9898, 78.233))) * 43758.5453123/_Time[0]);
             }
 
-            float random2(float2 uv)
+            float random2(float2 uv) //zwraca zmienna pseudolosowa
             {
                 return frac(sin(dot(uv, float2(12.9898, 78.233))) * 43758.5453123);
             }
@@ -64,36 +62,23 @@
 
             fixed4 frag (v2f i) : SV_Target
             {
-                fixed4 firstCol = tex2D(_MainTex, i.uv);
-                // apply fog
-                //UNITY_APPLY_FOG(i.fogCoord, col);
-                fixed4 secondCol = tex2D(_MainTex, i.uv);
-                //fixed4 col = firstCol + secondCol;
-                //fixed4 col = lerp(tex2D(_MainTex, i.uv), tex2D(_SecondaryTex, i.uv), 0.5 * sin(5 * _Time[1]) + 0.5) * _Color;
-                // sample the texture
-                //fixed4 col = tex2D(_MainTex, i.uv);
-                // apply fog
-                //UNITY_APPLY_FOG(i.fogCoord, col);
-                //col = tex2D(_SecondaryTex, i.uv);
+                fixed4 firstCol = tex2D(_MainTex, i.uv); //pierwsza tekstura - ostatecznie nie uzyty
+                fixed4 secondCol = tex2D(_MainTex, i.uv); //druga tekstura - ostatczenie nie uzyty
 
+                float k = random(i.uv); //losowanie pierwszej liczby
+                float m = random2(i.uv); //losowanie drugiej liczby
 
-                float k = random(i.uv);
-                float m = random2(i.uv);
+                if ((k+m)>0.008) //jesli suma dwoch zmiennych losowych jest wieksza od X - wartosc X dobrana eksperymentalnie
+                    discard; //wylacz naklanie koloru na ten piksel
 
+                fixed4 col; //kolor ktory zostanie zwrocony
+                
+                col.r = 1; //skladowa r na 100%
+                col.g = 0.84; //skladowa g na 84% (~214)
+                float l = random2(i.uv); //losujemy trzecia liczbe
+                col.b = l/5+0.2; //skladowa b losowa (rozne odcienie zlotego) - wspolczynniki dobrane eksperymentalnie
 
-
-                if ((k+m)>0.04)
-                    discard;
-
-                fixed4 col;
-
-                col.r = 1;
-                col.g = 0.84;
-                float l = random2(i.uv);
-                col.b = l/5+0.2;
-
-
-                return col;
+                return col; //zwroc kolor (naloz na piksel)
             }
             ENDCG
         }

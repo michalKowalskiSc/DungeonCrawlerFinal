@@ -1,9 +1,14 @@
 fileFormatVersion: 2
 guid: 05ec5cf00ca181d45a42ba1870e148c3
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - cursorArrow: {fileID: 2800000, guid: 6fdfcd4167ed5e7488584241bb671bb2, type: 3}
+  - sprDisarmDefault: {instanceID: 0}
+  - sprDisarmGreen: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 
+  assetBundleVariant: 

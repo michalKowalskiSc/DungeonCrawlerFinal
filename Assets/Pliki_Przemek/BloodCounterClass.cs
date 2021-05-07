@@ -10,9 +10,9 @@ public class BloodCounterClass : MonoBehaviour
     // Start is called before the first frame update
 
 
-    static public int bloodCounter=0;
-    static public int trapDelay = 0;
-    static public Boolean bloodCollision = false;
+    static public int bloodCounter=0; //licznik czasu zadawania obrazen
+    static public int trapDelay = 0; //licznik opoznienia na rozbrojenie
+    static public Boolean bloodCollision = false; //czy w kolizji z pulapka
     void Start()
     {
         

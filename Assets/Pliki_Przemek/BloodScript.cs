@@ -10,10 +10,7 @@ using UnityEngine;
 
 public class BloodScript : MonoBehaviour
 {
-    //private int bloodCounter = 0;
-    //private Boolean bloodTri = false;
-
-    public Material mat;
+    public Material mat; //shader z zadawaniem obrazen
 
     // Start is called before the first frame update
     void Start()
@@ -30,17 +27,12 @@ public class BloodScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Trap")
+        if (other.gameObject.tag == "Trap") //wejscie w pulapke
         {
             if (((other.gameObject.name == "Pf_Trap_Fire") && (Traps.fireTrapActive == 1)) || ((other.gameObject.name == "Pf_Trap_Needle") && (Traps.needleTrapActive == 1)) || ((other.gameObject.name == "Pf_Trap_Cutter (1)") && (Traps.cutterTrapActive == 1)))
             {
-                //bloodCounter = 100;
-                //bloodTri = true;
-                //BloodCounterClass.bloodCounter = 1000;
-                BloodCounterClass.bloodCollision = true;
-                BloodCounterClass.trapDelay = 200;
-                //Debug.Log("trigger");
-                //Debug.Log(BloodCounterClass.bloodCounter);
+                BloodCounterClass.bloodCollision = true; //jest w kolizji z pulapka
+                BloodCounterClass.trapDelay = 200; //opoznienie pulapki na rozbrojenie
             }
         }
         
@@ -48,19 +40,15 @@ public class BloodScript : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Trap")
+        if (other.gameObject.tag == "Trap") //wyjscie z pulapki
         {
             if (((other.gameObject.name == "Pf_Trap_Fire") && (Traps.fireTrapActive==1)) || ((other.gameObject.name == "Pf_Trap_Needle") && (Traps.needleTrapActive == 1)) || ((other.gameObject.name == "Pf_Trap_Cutter (1)") && (Traps.cutterTrapActive == 1)))
             {
-                //bloodCounter = 100;
-                //bloodTri = true;
-                //Debug.Log("trigger");
-                if (BloodCounterClass.bloodCollision == true)
+                if (BloodCounterClass.bloodCollision == true) //jesli nie rozbrojono
                 {
-                    BloodCounterClass.bloodCounter = 150;
+                    BloodCounterClass.bloodCounter = 150; //czas zadawania obrazen
                 }
-                BloodCounterClass.bloodCollision = false;
-                //Debug.Log(BloodCounterClass.bloodCounter);
+                BloodCounterClass.bloodCollision = false; //wyjscie z kolizji z pulapka    
             }
         }
 
@@ -69,46 +57,24 @@ public class BloodScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        //if (collision.gameObject.tag == "Trap")
-        //{
-        //    bloodCounter = 100;
-        //    Debug.Log("collision");
-        //}
+
     }
 
     private void OnRenderImage(RenderTexture src, RenderTexture dest)
     {
-
-
-
-        //src is the fully rendered scenen that you would normally
-        //send directly to the monitor.
-
-        /*
-        Color[] pixels = new Color[1920 * 1080];
-
-        for (int x=0;x<1920;x++)
-        {
-            for (int y=0;y<1080;y++)
-            {
-                pixels[x + y * 1080].r = 1.18f * 2.17f;
-            }
-        }
-        */
         if (BloodCounterClass.trapDelay > 0)
         {
-            BloodCounterClass.trapDelay--;
+            BloodCounterClass.trapDelay--; //dekremenatacja licznika czasu na rozbrojenie
         }
 
-        //if (((BloodCounterClass.bloodCounter > 0) || (BloodCounterClass.bloodCollision== true)) && (BloodCounterClass.trapDelay<1) && (FireTrap.active == 1))
-        if (((BloodCounterClass.bloodCounter > 0) || (BloodCounterClass.bloodCollision == true)) && (BloodCounterClass.trapDelay < 1))
+        if (((BloodCounterClass.bloodCounter > 0) || (BloodCounterClass.bloodCollision == true)) && (BloodCounterClass.trapDelay < 1)) //(jesli czas zadawania obrazen dodatni lub kolizji z pulapka) i skonczyl sie czas na rozbrojenie
             {
-            BloodCounterClass.bloodCounter--;
-            Graphics.Blit(src, dest, mat);
+            BloodCounterClass.bloodCounter--; //dekrementacja licznika zadawania obrazen
+            Graphics.Blit(src, dest, mat); //wywolaj shader zadawania obrazen
         }
         else
         {
-            Graphics.Blit(src, dest);
+            Graphics.Blit(src, dest); //nie wywoluj shadera
         }
     }
 }
